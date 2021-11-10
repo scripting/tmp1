@@ -3,65 +3,65 @@
 	<head>
 		<title>Notes</title>
 		<dateCreated>Mon, 20 Sep 2021 17:22:27 GMT</dateCreated>
-		<dateModified>Wed, 10 Nov 2021 17:18:38 GMT</dateModified>
+		<dateModified>Wed, 10 Nov 2021 17:20:00 GMT</dateModified>
 		<ownerTwitterScreenName>cluelessnewbie</ownerTwitterScreenName>
 		<ownerName>Clueless Newbie</ownerName>
 		<ownerId>http://twitter.com/cluelessnewbie</ownerId>
 		<urlUpdateSocket>ws://localhost:1230/</urlUpdateSocket>
-		<expansionState>1,2,8,13,14,16,21,28</expansionState>
-		<lastCursor>2</lastCursor>
+		<expansionState>1,2</expansionState>
+		<lastCursor>1</lastCursor>
 		</head>
 	<body>
 		<outline text="November 2021" created="Fri, 05 Nov 2021 15:22:11 GMT" name="november2021" type="calendarMonth">
 			<outline text="November 10" created="Wed, 10 Nov 2021 14:15:42 GMT" type="calendarDay" name="10">
 				<outline text="github.upload (&quot;scripting&quot;, &quot;tmp1&quot;, &quot;notes.opml&quot;, file.readWholeFile (&quot;notes.opml&quot;))" created="Wed, 10 Nov 2021 01:16:23 GMT" type="outline">
-					<outline text="{" created="Wed, 10 Nov 2021 01:18:35 GMT" isComment="true">
+					<outline text="{" created="Wed, 10 Nov 2021 17:18:40 GMT" isComment="true">
 						<outline text="&quot;content&quot;: {">
-							<outline text="&quot;name&quot;: &quot;menubar.opml&quot;,"/>
-							<outline text="&quot;path&quot;: &quot;menubar.opml&quot;,"/>
-							<outline text="&quot;sha&quot;: &quot;18f8da4953d764729d0250479435e61b83d4b972&quot;,"/>
-							<outline text="&quot;size&quot;: 1950,"/>
-							<outline text="&quot;url&quot;: &quot;https://api.github.com/repos/scripting/tmp1/contents/menubar.opml?ref=main&quot;,"/>
-							<outline text="&quot;html_url&quot;: &quot;https://github.com/scripting/tmp1/blob/main/menubar.opml&quot;,"/>
-							<outline text="&quot;git_url&quot;: &quot;https://api.github.com/repos/scripting/tmp1/git/blobs/18f8da4953d764729d0250479435e61b83d4b972&quot;,"/>
-							<outline text="&quot;download_url&quot;: &quot;https://raw.githubusercontent.com/scripting/tmp1/main/menubar.opml&quot;,"/>
+							<outline text="&quot;name&quot;: &quot;notes.opml&quot;,"/>
+							<outline text="&quot;path&quot;: &quot;notes.opml&quot;,"/>
+							<outline text="&quot;sha&quot;: &quot;bb766ac9c85e2c054191c1244389c2d4fd81a917&quot;,"/>
+							<outline text="&quot;size&quot;: 171667,"/>
+							<outline text="&quot;url&quot;: &quot;https://api.github.com/repos/scripting/tmp1/contents/notes.opml?ref=main&quot;,"/>
+							<outline text="&quot;html_url&quot;: &quot;https://github.com/scripting/tmp1/blob/main/notes.opml&quot;,"/>
+							<outline text="&quot;git_url&quot;: &quot;https://api.github.com/repos/scripting/tmp1/git/blobs/bb766ac9c85e2c054191c1244389c2d4fd81a917&quot;,"/>
+							<outline text="&quot;download_url&quot;: &quot;https://raw.githubusercontent.com/scripting/tmp1/main/notes.opml&quot;,"/>
 							<outline text="&quot;type&quot;: &quot;file&quot;,"/>
 							<outline text="&quot;_links&quot;: {">
-								<outline text="&quot;self&quot;: &quot;https://api.github.com/repos/scripting/tmp1/contents/menubar.opml?ref=main&quot;,"/>
-								<outline text="&quot;git&quot;: &quot;https://api.github.com/repos/scripting/tmp1/git/blobs/18f8da4953d764729d0250479435e61b83d4b972&quot;,"/>
-								<outline text="&quot;html&quot;: &quot;https://github.com/scripting/tmp1/blob/main/menubar.opml&quot;"/>
+								<outline text="&quot;self&quot;: &quot;https://api.github.com/repos/scripting/tmp1/contents/notes.opml?ref=main&quot;,"/>
+								<outline text="&quot;git&quot;: &quot;https://api.github.com/repos/scripting/tmp1/git/blobs/bb766ac9c85e2c054191c1244389c2d4fd81a917&quot;,"/>
+								<outline text="&quot;html&quot;: &quot;https://github.com/scripting/tmp1/blob/main/notes.opml&quot;"/>
 								<outline text="}"/>
 								</outline>
 							<outline text="},"/>
 							</outline>
 						<outline text="&quot;commit&quot;: {">
-							<outline text="&quot;sha&quot;: &quot;5e26856ce8fcf552d6f945d6493b0429be14ece6&quot;,"/>
-							<outline text="&quot;node_id&quot;: &quot;C_kwDOGWnhedoAKDVlMjY4NTZjZThmY2Y1NTJkNmY5NDVkNjQ5M2IwNDI5YmUxNGVjZTY&quot;,"/>
-							<outline text="&quot;url&quot;: &quot;https://api.github.com/repos/scripting/tmp1/git/commits/5e26856ce8fcf552d6f945d6493b0429be14ece6&quot;,"/>
-							<outline text="&quot;html_url&quot;: &quot;https://github.com/scripting/tmp1/commit/5e26856ce8fcf552d6f945d6493b0429be14ece6&quot;,"/>
+							<outline text="&quot;sha&quot;: &quot;2362247122160915066885f801517d380a07484b&quot;,"/>
+							<outline text="&quot;node_id&quot;: &quot;C_kwDOGWnhedoAKDIzNjIyNDcxMjIxNjA5MTUwNjY4ODVmODAxNTE3ZDM4MGEwNzQ4NGI&quot;,"/>
+							<outline text="&quot;url&quot;: &quot;https://api.github.com/repos/scripting/tmp1/git/commits/2362247122160915066885f801517d380a07484b&quot;,"/>
+							<outline text="&quot;html_url&quot;: &quot;https://github.com/scripting/tmp1/commit/2362247122160915066885f801517d380a07484b&quot;,"/>
 							<outline text="&quot;author&quot;: {">
 								<outline text="&quot;name&quot;: &quot;Dave Winer&quot;,"/>
 								<outline text="&quot;email&quot;: &quot;dave.winer@gmail.com&quot;,"/>
-								<outline text="&quot;date&quot;: &quot;2021-11-10T01:18:35Z&quot;"/>
+								<outline text="&quot;date&quot;: &quot;2021-11-10T17:18:40Z&quot;"/>
 								<outline text="},"/>
 								</outline>
 							<outline text="&quot;committer&quot;: {">
 								<outline text="&quot;name&quot;: &quot;Dave Winer&quot;,"/>
 								<outline text="&quot;email&quot;: &quot;dave.winer@gmail.com&quot;,"/>
-								<outline text="&quot;date&quot;: &quot;2021-11-10T01:18:35Z&quot;"/>
+								<outline text="&quot;date&quot;: &quot;2021-11-10T17:18:40Z&quot;"/>
 								<outline text="},"/>
 								</outline>
 							<outline text="&quot;tree&quot;: {">
-								<outline text="&quot;sha&quot;: &quot;f8bc10a81bc6633be16358671afaa0f451eec542&quot;,"/>
-								<outline text="&quot;url&quot;: &quot;https://api.github.com/repos/scripting/tmp1/git/trees/f8bc10a81bc6633be16358671afaa0f451eec542&quot;"/>
+								<outline text="&quot;sha&quot;: &quot;b174897c246a970759f8a222a2e505d7f296e5ec&quot;,"/>
+								<outline text="&quot;url&quot;: &quot;https://api.github.com/repos/scripting/tmp1/git/trees/b174897c246a970759f8a222a2e505d7f296e5ec&quot;"/>
 								<outline text="},"/>
 								</outline>
-							<outline text="&quot;message&quot;: &quot;This aggression will not stand.&quot;,"/>
+							<outline text="&quot;message&quot;: &quot;So, it has come to this.&quot;,"/>
 							<outline text="&quot;parents&quot;: [">
 								<outline text="{">
-									<outline text="&quot;sha&quot;: &quot;b173964c807bfa93594a726ba7308bbb15c7b479&quot;,"/>
-									<outline text="&quot;url&quot;: &quot;https://api.github.com/repos/scripting/tmp1/git/commits/b173964c807bfa93594a726ba7308bbb15c7b479&quot;,"/>
-									<outline text="&quot;html_url&quot;: &quot;https://github.com/scripting/tmp1/commit/b173964c807bfa93594a726ba7308bbb15c7b479&quot;"/>
+									<outline text="&quot;sha&quot;: &quot;5e26856ce8fcf552d6f945d6493b0429be14ece6&quot;,"/>
+									<outline text="&quot;url&quot;: &quot;https://api.github.com/repos/scripting/tmp1/git/commits/5e26856ce8fcf552d6f945d6493b0429be14ece6&quot;,"/>
+									<outline text="&quot;html_url&quot;: &quot;https://github.com/scripting/tmp1/commit/5e26856ce8fcf552d6f945d6493b0429be14ece6&quot;"/>
 									<outline text="}"/>
 									</outline>
 								<outline text="],"/>
@@ -2046,19 +2046,12 @@
 					</outline>
 				</outline>
 			<outline text="November 5" created="Fri, 05 Nov 2021 15:22:12 GMT" type="calendarDay" name="05">
-				<outline text="" created="Fri, 05 Nov 2021 16:11:02 GMT"/>
-				<outline text="" created="Fri, 05 Nov 2021 16:11:02 GMT"/>
-				<outline text="" created="Fri, 05 Nov 2021 16:11:02 GMT"/>
-				<outline text="" created="Fri, 05 Nov 2021 16:11:02 GMT"/>
-				<outline text="" created="Fri, 05 Nov 2021 16:11:03 GMT"/>
-				<outline text="" created="Fri, 05 Nov 2021 16:11:03 GMT"/>
 				<outline text="http.client ({url: &quot;http://scripting.com/rss.xml&quot;}).length" created="Fri, 05 Nov 2021 15:57:21 GMT" type="outline">
 					<outline text="55127" created="Fri, 05 Nov 2021 16:09:44 GMT" isComment="true"/>
 					</outline>
 				<outline text="http.client ({type: &quot;POST&quot;, " created="Fri, 05 Nov 2021 15:57:21 GMT" type="outline">
 					<outline text="55127" created="Fri, 05 Nov 2021 16:09:44 GMT" isComment="true"/>
 					</outline>
-				<outline text="" created="Fri, 05 Nov 2021 15:57:43 GMT"/>
 				<outline text="I forgot about Mr Michegas!" created="Fri, 05 Nov 2021 15:22:13 GMT" type="outline"/>
 				</outline>
 			</outline>
