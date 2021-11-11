@@ -3,65 +3,99 @@
 	<head>
 		<title>Notes</title>
 		<dateCreated>Mon, 20 Sep 2021 17:22:27 GMT</dateCreated>
-		<dateModified>Wed, 10 Nov 2021 17:28:48 GMT</dateModified>
+		<dateModified>Thu, 11 Nov 2021 13:23:37 GMT</dateModified>
 		<ownerTwitterScreenName>cluelessnewbie</ownerTwitterScreenName>
 		<ownerName>Clueless Newbie</ownerName>
 		<ownerId>http://twitter.com/cluelessnewbie</ownerId>
 		<urlUpdateSocket>ws://localhost:1230/</urlUpdateSocket>
-		<expansionState>1,2,3</expansionState>
-		<lastCursor>2</lastCursor>
+		<expansionState>1,2,3,5,7,9,11,13,18,20,22,23,28,33,34,48</expansionState>
+		<lastCursor>10</lastCursor>
 		</head>
 	<body>
 		<outline text="November 2021" created="Fri, 05 Nov 2021 15:22:11 GMT" name="november2021" type="calendarMonth">
 			<outline text="November 10" created="Wed, 10 Nov 2021 14:15:42 GMT" type="calendarDay" name="10">
+				<outline text="base64.decode (github.download (&quot;scripting&quot;, &quot;Scripting-News&quot;, &quot;/blog/stories/2020/02/15/a142106.md&quot;).content)" created="Wed, 10 Nov 2021 20:43:52 GMT">
+					<outline text="Questions for all Democratic candidates, esp &lt;a href=&quot;http://scripting.com/2020/02/14/141155.html?title=presidentBloombergReallyADemocrat&quot;&gt;Bloomberg&lt;/a&gt;. Do you feel the president is above the law? If you are elected, will you use the new powers Trump has taken for himself? What will you do if Trump refuses to leave? " created="Thu, 11 Nov 2021 13:23:00 GMT" isComment="true"/>
+					</outline>
+				<outline text="github.download (&quot;scripting&quot;, &quot;Scripting-News&quot;, &quot;/blog/stories/2020/02/15/a142106.md&quot;)" created="Wed, 10 Nov 2021 20:46:45 GMT">
+					<outline text="{" created="Thu, 11 Nov 2021 13:23:06 GMT" isComment="true">
+						<outline text="&quot;name&quot;: &quot;a142106.md&quot;,"/>
+						<outline text="&quot;path&quot;: &quot;blog/stories/2020/02/15/a142106.md&quot;,"/>
+						<outline text="&quot;sha&quot;: &quot;ae0051e2ed4f222906f1c2da1a5d00318efd9c8b&quot;,"/>
+						<outline text="&quot;size&quot;: 319,"/>
+						<outline text="&quot;url&quot;: &quot;https://api.github.com/repos/scripting/Scripting-News/contents/blog/stories/2020/02/15/a142106.md?ref=master&quot;,"/>
+						<outline text="&quot;html_url&quot;: &quot;https://github.com/scripting/Scripting-News/blob/master/blog/stories/2020/02/15/a142106.md&quot;,"/>
+						<outline text="&quot;git_url&quot;: &quot;https://api.github.com/repos/scripting/Scripting-News/git/blobs/ae0051e2ed4f222906f1c2da1a5d00318efd9c8b&quot;,"/>
+						<outline text="&quot;download_url&quot;: &quot;https://raw.githubusercontent.com/scripting/Scripting-News/master/blog/stories/2020/02/15/a142106.md&quot;,"/>
+						<outline text="&quot;type&quot;: &quot;file&quot;,"/>
+						<outline text="&quot;content&quot;: &quot;UXVlc3Rpb25zIGZvciBhbGwgRGVtb2NyYXRpYyBjYW5kaWRhdGVzLCBlc3Ag\nPGEgaHJlZj0iaHR0cDovL3NjcmlwdGluZy5jb20vMjAyMC8wMi8xNC8xNDEx\nNTUuaHRtbD90aXRsZT1wcmVzaWRlbnRCbG9vbWJlcmdSZWFsbHlBRGVtb2Ny\nYXQiPkJsb29tYmVyZzwvYT4uIERvIHlvdSBmZWVsIHRoZSBwcmVzaWRlbnQg\naXMgYWJvdmUgdGhlIGxhdz8gSWYgeW91IGFyZSBlbGVjdGVkLCB3aWxsIHlv\ndSB1c2UgdGhlIG5ldyBwb3dlcnMgVHJ1bXAgaGFzIHRha2VuIGZvciBoaW1z\nZWxmPyBXaGF0IHdpbGwgeW91IGRvIGlmIFRydW1wIHJlZnVzZXMgdG8gbGVh\ndmU/Cg==\n&quot;,"/>
+						<outline text="&quot;encoding&quot;: &quot;base64&quot;,"/>
+						<outline text="&quot;_links&quot;: {">
+							<outline text="&quot;self&quot;: &quot;https://api.github.com/repos/scripting/Scripting-News/contents/blog/stories/2020/02/15/a142106.md?ref=master&quot;,"/>
+							<outline text="&quot;git&quot;: &quot;https://api.github.com/repos/scripting/Scripting-News/git/blobs/ae0051e2ed4f222906f1c2da1a5d00318efd9c8b&quot;,"/>
+							<outline text="&quot;html&quot;: &quot;https://github.com/scripting/Scripting-News/blob/master/blog/stories/2020/02/15/a142106.md&quot;"/>
+							<outline text="}"/>
+							</outline>
+						<outline text="}"/>
+						</outline>
+					</outline>
+				<outline text="github.connectViaOauth ()" created="Wed, 10 Nov 2021 20:24:30 GMT" type="outline">
+					<outline text="true" created="Wed, 10 Nov 2021 20:29:24 GMT" isComment="true"/>
+					</outline>
+				<outline text="github.disconnect ()" created="Wed, 10 Nov 2021 20:24:30 GMT" type="outline">
+					<outline text="true" created="Wed, 10 Nov 2021 20:28:23 GMT" isComment="true"/>
+					</outline>
+				<outline text="github.getAccessToken ()" created="Wed, 10 Nov 2021 20:24:30 GMT" type="outline">
+					<outline text="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" created="Thu, 11 Nov 2021 13:23:35 GMT" isComment="true"/>
+					</outline>
 				<outline text="github.upload (&quot;scripting&quot;, &quot;tmp1&quot;, &quot;notes.opml&quot;, file.readWholeFile (&quot;notes.opml&quot;), &quot;Just passin through!&quot;)" created="Wed, 10 Nov 2021 01:16:23 GMT" type="outline">
-					<outline text="{" created="Wed, 10 Nov 2021 17:20:04 GMT" isComment="true">
+					<outline text="{" created="Wed, 10 Nov 2021 17:28:51 GMT" isComment="true">
 						<outline text="&quot;content&quot;: {">
 							<outline text="&quot;name&quot;: &quot;notes.opml&quot;,"/>
 							<outline text="&quot;path&quot;: &quot;notes.opml&quot;,"/>
-							<outline text="&quot;sha&quot;: &quot;41faa8fcb3506da46896b11966b68e013f3b68a0&quot;,"/>
-							<outline text="&quot;size&quot;: 171190,"/>
+							<outline text="&quot;sha&quot;: &quot;b17cf118e0ec821e0ad69e1aec4f75d7a29a3574&quot;,"/>
+							<outline text="&quot;size&quot;: 171254,"/>
 							<outline text="&quot;url&quot;: &quot;https://api.github.com/repos/scripting/tmp1/contents/notes.opml?ref=main&quot;,"/>
 							<outline text="&quot;html_url&quot;: &quot;https://github.com/scripting/tmp1/blob/main/notes.opml&quot;,"/>
-							<outline text="&quot;git_url&quot;: &quot;https://api.github.com/repos/scripting/tmp1/git/blobs/41faa8fcb3506da46896b11966b68e013f3b68a0&quot;,"/>
+							<outline text="&quot;git_url&quot;: &quot;https://api.github.com/repos/scripting/tmp1/git/blobs/b17cf118e0ec821e0ad69e1aec4f75d7a29a3574&quot;,"/>
 							<outline text="&quot;download_url&quot;: &quot;https://raw.githubusercontent.com/scripting/tmp1/main/notes.opml&quot;,"/>
 							<outline text="&quot;type&quot;: &quot;file&quot;,"/>
 							<outline text="&quot;_links&quot;: {">
 								<outline text="&quot;self&quot;: &quot;https://api.github.com/repos/scripting/tmp1/contents/notes.opml?ref=main&quot;,"/>
-								<outline text="&quot;git&quot;: &quot;https://api.github.com/repos/scripting/tmp1/git/blobs/41faa8fcb3506da46896b11966b68e013f3b68a0&quot;,"/>
+								<outline text="&quot;git&quot;: &quot;https://api.github.com/repos/scripting/tmp1/git/blobs/b17cf118e0ec821e0ad69e1aec4f75d7a29a3574&quot;,"/>
 								<outline text="&quot;html&quot;: &quot;https://github.com/scripting/tmp1/blob/main/notes.opml&quot;"/>
 								<outline text="}"/>
 								</outline>
 							<outline text="},"/>
 							</outline>
 						<outline text="&quot;commit&quot;: {">
-							<outline text="&quot;sha&quot;: &quot;fd0351c3940cfd156bf4e145036de0d907977ed3&quot;,"/>
-							<outline text="&quot;node_id&quot;: &quot;C_kwDOGWnhedoAKGZkMDM1MWMzOTQwY2ZkMTU2YmY0ZTE0NTAzNmRlMGQ5MDc5NzdlZDM&quot;,"/>
-							<outline text="&quot;url&quot;: &quot;https://api.github.com/repos/scripting/tmp1/git/commits/fd0351c3940cfd156bf4e145036de0d907977ed3&quot;,"/>
-							<outline text="&quot;html_url&quot;: &quot;https://github.com/scripting/tmp1/commit/fd0351c3940cfd156bf4e145036de0d907977ed3&quot;,"/>
+							<outline text="&quot;sha&quot;: &quot;9ed73d2d9ec026a3db29821a371ed29113bcaad5&quot;,"/>
+							<outline text="&quot;node_id&quot;: &quot;C_kwDOGWnhedoAKDllZDczZDJkOWVjMDI2YTNkYjI5ODIxYTM3MWVkMjkxMTNiY2FhZDU&quot;,"/>
+							<outline text="&quot;url&quot;: &quot;https://api.github.com/repos/scripting/tmp1/git/commits/9ed73d2d9ec026a3db29821a371ed29113bcaad5&quot;,"/>
+							<outline text="&quot;html_url&quot;: &quot;https://github.com/scripting/tmp1/commit/9ed73d2d9ec026a3db29821a371ed29113bcaad5&quot;,"/>
 							<outline text="&quot;author&quot;: {">
 								<outline text="&quot;name&quot;: &quot;Dave Winer&quot;,"/>
 								<outline text="&quot;email&quot;: &quot;dave.winer@gmail.com&quot;,"/>
-								<outline text="&quot;date&quot;: &quot;2021-11-10T17:20:04Z&quot;"/>
+								<outline text="&quot;date&quot;: &quot;2021-11-10T17:28:51Z&quot;"/>
 								<outline text="},"/>
 								</outline>
 							<outline text="&quot;committer&quot;: {">
 								<outline text="&quot;name&quot;: &quot;Dave Winer&quot;,"/>
 								<outline text="&quot;email&quot;: &quot;dave.winer@gmail.com&quot;,"/>
-								<outline text="&quot;date&quot;: &quot;2021-11-10T17:20:04Z&quot;"/>
+								<outline text="&quot;date&quot;: &quot;2021-11-10T17:28:51Z&quot;"/>
 								<outline text="},"/>
 								</outline>
 							<outline text="&quot;tree&quot;: {">
-								<outline text="&quot;sha&quot;: &quot;0657103d700b81976b57f54075efe615be59879d&quot;,"/>
-								<outline text="&quot;url&quot;: &quot;https://api.github.com/repos/scripting/tmp1/git/trees/0657103d700b81976b57f54075efe615be59879d&quot;"/>
+								<outline text="&quot;sha&quot;: &quot;7a017926198cb0377a3ad6ad1e05c3e06cd476f6&quot;,"/>
+								<outline text="&quot;url&quot;: &quot;https://api.github.com/repos/scripting/tmp1/git/trees/7a017926198cb0377a3ad6ad1e05c3e06cd476f6&quot;"/>
 								<outline text="},"/>
 								</outline>
-							<outline text="&quot;message&quot;: &quot;Welcome back my friends to the show that never ends.&quot;,"/>
+							<outline text="&quot;message&quot;: &quot;Just passin through!&quot;,"/>
 							<outline text="&quot;parents&quot;: [">
 								<outline text="{">
-									<outline text="&quot;sha&quot;: &quot;2362247122160915066885f801517d380a07484b&quot;,"/>
-									<outline text="&quot;url&quot;: &quot;https://api.github.com/repos/scripting/tmp1/git/commits/2362247122160915066885f801517d380a07484b&quot;,"/>
-									<outline text="&quot;html_url&quot;: &quot;https://github.com/scripting/tmp1/commit/2362247122160915066885f801517d380a07484b&quot;"/>
+									<outline text="&quot;sha&quot;: &quot;fd0351c3940cfd156bf4e145036de0d907977ed3&quot;,"/>
+									<outline text="&quot;url&quot;: &quot;https://api.github.com/repos/scripting/tmp1/git/commits/fd0351c3940cfd156bf4e145036de0d907977ed3&quot;,"/>
+									<outline text="&quot;html_url&quot;: &quot;https://github.com/scripting/tmp1/commit/fd0351c3940cfd156bf4e145036de0d907977ed3&quot;"/>
 									<outline text="}"/>
 									</outline>
 								<outline text="],"/>
@@ -1644,56 +1678,54 @@
 						<outline text="]"/>
 						</outline>
 					</outline>
-				</outline>
-			<outline text="November 9" created="Tue, 09 Nov 2021 19:58:57 GMT" type="calendarDay" name="09">
-				<outline text="github.upload (&quot;scripting&quot;, &quot;tmp1&quot;, &quot;menubar.opml&quot;, file.readWholeFile (&quot;menubar.opml&quot;))" created="Wed, 10 Nov 2021 01:16:23 GMT" type="outline">
-					<outline text="{" created="Wed, 10 Nov 2021 01:18:35 GMT" isComment="true">
+				<outline text="github.upload (&quot;scripting&quot;, &quot;tmp1&quot;, &quot;hello.txt&quot;, &quot;Hello World&quot;)" created="Wed, 10 Nov 2021 20:52:16 GMT">
+					<outline text="{" created="Wed, 10 Nov 2021 20:52:18 GMT" isComment="true">
 						<outline text="&quot;content&quot;: {">
-							<outline text="&quot;name&quot;: &quot;menubar.opml&quot;,"/>
-							<outline text="&quot;path&quot;: &quot;menubar.opml&quot;,"/>
-							<outline text="&quot;sha&quot;: &quot;18f8da4953d764729d0250479435e61b83d4b972&quot;,"/>
-							<outline text="&quot;size&quot;: 1950,"/>
-							<outline text="&quot;url&quot;: &quot;https://api.github.com/repos/scripting/tmp1/contents/menubar.opml?ref=main&quot;,"/>
-							<outline text="&quot;html_url&quot;: &quot;https://github.com/scripting/tmp1/blob/main/menubar.opml&quot;,"/>
-							<outline text="&quot;git_url&quot;: &quot;https://api.github.com/repos/scripting/tmp1/git/blobs/18f8da4953d764729d0250479435e61b83d4b972&quot;,"/>
-							<outline text="&quot;download_url&quot;: &quot;https://raw.githubusercontent.com/scripting/tmp1/main/menubar.opml&quot;,"/>
+							<outline text="&quot;name&quot;: &quot;hello.txt&quot;,"/>
+							<outline text="&quot;path&quot;: &quot;hello.txt&quot;,"/>
+							<outline text="&quot;sha&quot;: &quot;5e1c309dae7f45e0f39b1bf3ac3cd9db12e7d689&quot;,"/>
+							<outline text="&quot;size&quot;: 11,"/>
+							<outline text="&quot;url&quot;: &quot;https://api.github.com/repos/scripting/tmp1/contents/hello.txt?ref=main&quot;,"/>
+							<outline text="&quot;html_url&quot;: &quot;https://github.com/scripting/tmp1/blob/main/hello.txt&quot;,"/>
+							<outline text="&quot;git_url&quot;: &quot;https://api.github.com/repos/scripting/tmp1/git/blobs/5e1c309dae7f45e0f39b1bf3ac3cd9db12e7d689&quot;,"/>
+							<outline text="&quot;download_url&quot;: &quot;https://raw.githubusercontent.com/scripting/tmp1/main/hello.txt&quot;,"/>
 							<outline text="&quot;type&quot;: &quot;file&quot;,"/>
 							<outline text="&quot;_links&quot;: {">
-								<outline text="&quot;self&quot;: &quot;https://api.github.com/repos/scripting/tmp1/contents/menubar.opml?ref=main&quot;,"/>
-								<outline text="&quot;git&quot;: &quot;https://api.github.com/repos/scripting/tmp1/git/blobs/18f8da4953d764729d0250479435e61b83d4b972&quot;,"/>
-								<outline text="&quot;html&quot;: &quot;https://github.com/scripting/tmp1/blob/main/menubar.opml&quot;"/>
+								<outline text="&quot;self&quot;: &quot;https://api.github.com/repos/scripting/tmp1/contents/hello.txt?ref=main&quot;,"/>
+								<outline text="&quot;git&quot;: &quot;https://api.github.com/repos/scripting/tmp1/git/blobs/5e1c309dae7f45e0f39b1bf3ac3cd9db12e7d689&quot;,"/>
+								<outline text="&quot;html&quot;: &quot;https://github.com/scripting/tmp1/blob/main/hello.txt&quot;"/>
 								<outline text="}"/>
 								</outline>
 							<outline text="},"/>
 							</outline>
 						<outline text="&quot;commit&quot;: {">
-							<outline text="&quot;sha&quot;: &quot;5e26856ce8fcf552d6f945d6493b0429be14ece6&quot;,"/>
-							<outline text="&quot;node_id&quot;: &quot;C_kwDOGWnhedoAKDVlMjY4NTZjZThmY2Y1NTJkNmY5NDVkNjQ5M2IwNDI5YmUxNGVjZTY&quot;,"/>
-							<outline text="&quot;url&quot;: &quot;https://api.github.com/repos/scripting/tmp1/git/commits/5e26856ce8fcf552d6f945d6493b0429be14ece6&quot;,"/>
-							<outline text="&quot;html_url&quot;: &quot;https://github.com/scripting/tmp1/commit/5e26856ce8fcf552d6f945d6493b0429be14ece6&quot;,"/>
+							<outline text="&quot;sha&quot;: &quot;e0ef91110335af449223826acdc681988e441aad&quot;,"/>
+							<outline text="&quot;node_id&quot;: &quot;C_kwDOGWnhedoAKGUwZWY5MTExMDMzNWFmNDQ5MjIzODI2YWNkYzY4MTk4OGU0NDFhYWQ&quot;,"/>
+							<outline text="&quot;url&quot;: &quot;https://api.github.com/repos/scripting/tmp1/git/commits/e0ef91110335af449223826acdc681988e441aad&quot;,"/>
+							<outline text="&quot;html_url&quot;: &quot;https://github.com/scripting/tmp1/commit/e0ef91110335af449223826acdc681988e441aad&quot;,"/>
 							<outline text="&quot;author&quot;: {">
 								<outline text="&quot;name&quot;: &quot;Dave Winer&quot;,"/>
 								<outline text="&quot;email&quot;: &quot;dave.winer@gmail.com&quot;,"/>
-								<outline text="&quot;date&quot;: &quot;2021-11-10T01:18:35Z&quot;"/>
+								<outline text="&quot;date&quot;: &quot;2021-11-10T20:52:18Z&quot;"/>
 								<outline text="},"/>
 								</outline>
 							<outline text="&quot;committer&quot;: {">
 								<outline text="&quot;name&quot;: &quot;Dave Winer&quot;,"/>
 								<outline text="&quot;email&quot;: &quot;dave.winer@gmail.com&quot;,"/>
-								<outline text="&quot;date&quot;: &quot;2021-11-10T01:18:35Z&quot;"/>
+								<outline text="&quot;date&quot;: &quot;2021-11-10T20:52:18Z&quot;"/>
 								<outline text="},"/>
 								</outline>
 							<outline text="&quot;tree&quot;: {">
-								<outline text="&quot;sha&quot;: &quot;f8bc10a81bc6633be16358671afaa0f451eec542&quot;,"/>
-								<outline text="&quot;url&quot;: &quot;https://api.github.com/repos/scripting/tmp1/git/trees/f8bc10a81bc6633be16358671afaa0f451eec542&quot;"/>
+								<outline text="&quot;sha&quot;: &quot;d225f272b14b41078d954bd7d7d75f85c876a66b&quot;,"/>
+								<outline text="&quot;url&quot;: &quot;https://api.github.com/repos/scripting/tmp1/git/trees/d225f272b14b41078d954bd7d7d75f85c876a66b&quot;"/>
 								<outline text="},"/>
 								</outline>
-							<outline text="&quot;message&quot;: &quot;This aggression will not stand.&quot;,"/>
+							<outline text="&quot;message&quot;: &quot;Takes a lickin, keeps on tickin.&quot;,"/>
 							<outline text="&quot;parents&quot;: [">
 								<outline text="{">
-									<outline text="&quot;sha&quot;: &quot;b173964c807bfa93594a726ba7308bbb15c7b479&quot;,"/>
-									<outline text="&quot;url&quot;: &quot;https://api.github.com/repos/scripting/tmp1/git/commits/b173964c807bfa93594a726ba7308bbb15c7b479&quot;,"/>
-									<outline text="&quot;html_url&quot;: &quot;https://github.com/scripting/tmp1/commit/b173964c807bfa93594a726ba7308bbb15c7b479&quot;"/>
+									<outline text="&quot;sha&quot;: &quot;7a6ac66cd728566fbe9bd10bc38882e6ff1f060a&quot;,"/>
+									<outline text="&quot;url&quot;: &quot;https://api.github.com/repos/scripting/tmp1/git/commits/7a6ac66cd728566fbe9bd10bc38882e6ff1f060a&quot;,"/>
+									<outline text="&quot;html_url&quot;: &quot;https://github.com/scripting/tmp1/commit/7a6ac66cd728566fbe9bd10bc38882e6ff1f060a&quot;"/>
 									<outline text="}"/>
 									</outline>
 								<outline text="],"/>
@@ -1708,6 +1740,73 @@
 							<outline text="},"/>
 							</outline>
 						<outline text="&quot;statusCode&quot;: 201"/>
+						<outline text="}"/>
+						</outline>
+					</outline>
+				</outline>
+			<outline text="November 9" created="Tue, 09 Nov 2021 19:58:57 GMT" type="calendarDay" name="09">
+				<outline text="github.upload (&quot;scripting&quot;, &quot;tmp1&quot;, &quot;menubar.opml&quot;, file.readWholeFile (&quot;menubar.opml&quot;))" created="Wed, 10 Nov 2021 01:16:23 GMT" type="outline">
+					<outline text="{" created="Wed, 10 Nov 2021 17:30:39 GMT" isComment="true">
+						<outline text="&quot;content&quot;: {">
+							<outline text="&quot;name&quot;: &quot;menubar.opml&quot;,"/>
+							<outline text="&quot;path&quot;: &quot;menubar.opml&quot;,"/>
+							<outline text="&quot;sha&quot;: &quot;e79db043007915b8f8f92311f62f8d7ff2d39004&quot;,"/>
+							<outline text="&quot;size&quot;: 1950,"/>
+							<outline text="&quot;url&quot;: &quot;https://api.github.com/repos/scripting/tmp1/contents/menubar.opml?ref=main&quot;,"/>
+							<outline text="&quot;html_url&quot;: &quot;https://github.com/scripting/tmp1/blob/main/menubar.opml&quot;,"/>
+							<outline text="&quot;git_url&quot;: &quot;https://api.github.com/repos/scripting/tmp1/git/blobs/e79db043007915b8f8f92311f62f8d7ff2d39004&quot;,"/>
+							<outline text="&quot;download_url&quot;: &quot;https://raw.githubusercontent.com/scripting/tmp1/main/menubar.opml&quot;,"/>
+							<outline text="&quot;type&quot;: &quot;file&quot;,"/>
+							<outline text="&quot;_links&quot;: {">
+								<outline text="&quot;self&quot;: &quot;https://api.github.com/repos/scripting/tmp1/contents/menubar.opml?ref=main&quot;,"/>
+								<outline text="&quot;git&quot;: &quot;https://api.github.com/repos/scripting/tmp1/git/blobs/e79db043007915b8f8f92311f62f8d7ff2d39004&quot;,"/>
+								<outline text="&quot;html&quot;: &quot;https://github.com/scripting/tmp1/blob/main/menubar.opml&quot;"/>
+								<outline text="}"/>
+								</outline>
+							<outline text="},"/>
+							</outline>
+						<outline text="&quot;commit&quot;: {">
+							<outline text="&quot;sha&quot;: &quot;7a6ac66cd728566fbe9bd10bc38882e6ff1f060a&quot;,"/>
+							<outline text="&quot;node_id&quot;: &quot;C_kwDOGWnhedoAKDdhNmFjNjZjZDcyODU2NmZiZTliZDEwYmMzODg4MmU2ZmYxZjA2MGE&quot;,"/>
+							<outline text="&quot;url&quot;: &quot;https://api.github.com/repos/scripting/tmp1/git/commits/7a6ac66cd728566fbe9bd10bc38882e6ff1f060a&quot;,"/>
+							<outline text="&quot;html_url&quot;: &quot;https://github.com/scripting/tmp1/commit/7a6ac66cd728566fbe9bd10bc38882e6ff1f060a&quot;,"/>
+							<outline text="&quot;author&quot;: {">
+								<outline text="&quot;name&quot;: &quot;Dave Winer&quot;,"/>
+								<outline text="&quot;email&quot;: &quot;dave.winer@gmail.com&quot;,"/>
+								<outline text="&quot;date&quot;: &quot;2021-11-10T17:30:39Z&quot;"/>
+								<outline text="},"/>
+								</outline>
+							<outline text="&quot;committer&quot;: {">
+								<outline text="&quot;name&quot;: &quot;Dave Winer&quot;,"/>
+								<outline text="&quot;email&quot;: &quot;dave.winer@gmail.com&quot;,"/>
+								<outline text="&quot;date&quot;: &quot;2021-11-10T17:30:39Z&quot;"/>
+								<outline text="},"/>
+								</outline>
+							<outline text="&quot;tree&quot;: {">
+								<outline text="&quot;sha&quot;: &quot;bd92b29f4b9a44109b33d6e15b56053da3e1ddf9&quot;,"/>
+								<outline text="&quot;url&quot;: &quot;https://api.github.com/repos/scripting/tmp1/git/trees/bd92b29f4b9a44109b33d6e15b56053da3e1ddf9&quot;"/>
+								<outline text="},"/>
+								</outline>
+							<outline text="&quot;message&quot;: &quot;Slow down to hurry up.&quot;,"/>
+							<outline text="&quot;parents&quot;: [">
+								<outline text="{">
+									<outline text="&quot;sha&quot;: &quot;ad783e6af77511060e59499ea4af245df99fdb5b&quot;,"/>
+									<outline text="&quot;url&quot;: &quot;https://api.github.com/repos/scripting/tmp1/git/commits/ad783e6af77511060e59499ea4af245df99fdb5b&quot;,"/>
+									<outline text="&quot;html_url&quot;: &quot;https://github.com/scripting/tmp1/commit/ad783e6af77511060e59499ea4af245df99fdb5b&quot;"/>
+									<outline text="}"/>
+									</outline>
+								<outline text="],"/>
+								</outline>
+							<outline text="&quot;verification&quot;: {">
+								<outline text="&quot;verified&quot;: false,"/>
+								<outline text="&quot;reason&quot;: &quot;unsigned&quot;,"/>
+								<outline text="&quot;signature&quot;: null,"/>
+								<outline text="&quot;payload&quot;: null"/>
+								<outline text="}"/>
+								</outline>
+							<outline text="},"/>
+							</outline>
+						<outline text="&quot;statusCode&quot;: 200"/>
 						<outline text="}"/>
 						</outline>
 					</outline>
@@ -2022,8 +2121,8 @@
 				<outline text="github.connectViaOauth ()" created="Tue, 09 Nov 2021 16:13:35 GMT">
 					<outline text="undefined" created="Tue, 09 Nov 2021 16:13:44 GMT" isComment="true"/>
 					</outline>
-				<outline text="github.get (&quot;scripting&quot;, &quot;publicfolder&quot;, &quot;examples/helloworld/hellomain.js&quot;)" created="Mon, 08 Nov 2021 22:03:26 GMT" type="outline">
-					<outline text="{" created="Tue, 09 Nov 2021 20:18:35 GMT" isComment="true">
+				<outline text="github.download (&quot;scripting&quot;, &quot;publicfolder&quot;, &quot;examples/helloworld/hellomain.js&quot;)" created="Mon, 08 Nov 2021 22:03:26 GMT" type="outline">
+					<outline text="{" created="Wed, 10 Nov 2021 20:35:57 GMT" isComment="true">
 						<outline text="&quot;name&quot;: &quot;hellomain.js&quot;,"/>
 						<outline text="&quot;path&quot;: &quot;examples/helloworld/hellomain.js&quot;,"/>
 						<outline text="&quot;sha&quot;: &quot;2918f62a359b65a9bbf7384ba6b8e338d6e88974&quot;,"/>
