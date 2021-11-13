@@ -6,6 +6,13 @@ created:: Tue, 24 Aug 2021 14:56:11 GMT
 	- California
 	- Hawaii
 	- Nevada
+	created:: Sat, 13 Nov 2021 22:51:55 GMT
+		- Reno
+		created:: Sat, 13 Nov 2021 22:51:57 GMT
+		- Las Vegas
+		created:: Sat, 13 Nov 2021 22:52:01 GMT
+		- Pahrump
+		created:: Sat, 13 Nov 2021 22:52:05 GMT
 	- Oregon
 	- Washington
 - Great Plains
