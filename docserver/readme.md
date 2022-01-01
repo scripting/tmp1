@@ -9,13 +9,11 @@
 ## http verbs
 ## oldSchool verbs
 ## opml verbs
-## op verbs
 ## base64 verbs
 ## rss verbs
 ## speaker verbs
 ## string verbs
 ## tab verbs
-## twitter verbs
 ## webBrowser verbs
 ### clock.now
 ### clock.waitSeconds
