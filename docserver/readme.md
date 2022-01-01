@@ -1,7 +1,9 @@
-## clock verbs
+
+# clock verbs
 ### clock.now
 ### clock.waitSeconds
-## date verbs
+
+# date verbs
 ### date.convertToTimeZone
 ### date.dayGreaterThanOrEqual
 ### date.netStandardString
@@ -10,27 +12,32 @@
 ### date.secondsSince
 ### date.tomorrow
 ### date.yesterday
-## daytona verbs
+
+# daytona verbs
 ### daytona.ping
 ### daytona.query
 ### daytona.resetMyIndex
 ### daytona.removeOutlineRefs
-## dialog verbs
+
+# dialog verbs
 ### dialog.alert
 ### dialog.ask
 ### dialog.confirm
 ### dialog.about
-## dns verbs
+
+# dns verbs
 ### dns.getDomainName
 ### dns.getDottedId
-## drummer verbs
+
+# drummer verbs
 ### drummer.productname
 ### drummer.productnameForDisplay
 ### drummer.runScript
 ### drummer.subscribeToOutline
 ### drummer.version
 ### drummer.useStylesheet
-## file verbs
+
+# file verbs
 ### file.exists
 ### file.writeWholeFile
 ### file.readWholeFile
@@ -38,7 +45,8 @@
 ### file.getFileInfo
 ### file.makeFilePublic
 ### file.getFileHierarchy
-## github verbs
+
+# github verbs
 ### github.connectViaOauth
 ### github.disconnect
 ### github.download
@@ -46,14 +54,17 @@
 ### github.getDirectory
 ### github.getUserInfo
 ### github.upload
-## http verbs
+
+# http verbs
 ### http.client
 ### http.readUrl
 ### http.derefUrl
-## oldSchool verbs
+
+# oldSchool verbs
 ### oldSchool.buildBlog
 ### oldSchool.getCursorLink
-## opml verbs
+
+# opml verbs
 ### opml.parse
 ### opml.stringify
 ### opml.attributes.addGroup
@@ -69,14 +80,18 @@
 ### opml.getMarkdown
 ### opml.getHeaders
 ### opml.setHeaders
-## base64 verbs
+
+# base64 verbs
 ### base64.encode
 ### base64.decode
-## rss verbs
+
+# rss verbs
 ### rss.readFeed
-## speaker verbs
+
+# speaker verbs
 ### speaker.beep
-## string verbs
+
+# string verbs
 ### string.addCommas
 ### string.addPeriodAtEnd
 ### string.beginsWith
@@ -118,9 +133,11 @@
 ### string.trimTrailing
 ### string.trimWhitespace
 ### string.upper
-## tab verbs
+
+# tab verbs
 ### tab.getPublicUrl
 ### tab.openFile
 ### tab.openInstantOutline
-## webBrowser verbs
+
+# webBrowser verbs
 ### webBrowser.openUrl
