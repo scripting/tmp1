@@ -1,6 +1,6 @@
 
 # clock verbs
-### clock.now
+## clock.now
 #### Syntax
 clock.now ()
 
@@ -11,7 +11,7 @@ A JavaScript date object with the current date and time.
 clock.now ()
 
 <i>Tue Mar 16 2021 14:31:39 GMT-0400 (Eastern Daylight Time)</i>
-### clock.waitSeconds
+## clock.waitSeconds
 #### Syntax
 clock.waitSeconds (number)
 
@@ -36,7 +36,7 @@ clock.waitSeconds (random (1, 3))
 <i>2.005</i>
 
 # date verbs
-### date.convertToTimeZone
+## date.convertToTimeZone
 #### Syntax
 date.convertToTimeZone (date, string)
 
@@ -58,7 +58,7 @@ This is a core routine for building blogs that might be published by software ru
 date.convertToTimeZone (clock.now (), "+5:30").toLocaleString ()
 
 <i>11/15/2021, 8:45:29 PM</i>
-### date.dayGreaterThanOrEqual
+## date.dayGreaterThanOrEqual
 #### Syntax
 date.dayGreaterThanOrEqual (d1, d2)
 
@@ -75,7 +75,7 @@ This verb is useful in determining which version of software you're running, if 
 date.dayGreaterThanOrEqual (clock.now (), "November 22, 2018")
 
 <i>true</i>
-### date.netStandardString
+## date.netStandardString
 #### Syntax
 date.netStandardString (date)
 
@@ -97,7 +97,7 @@ date.netStandardString (clock.now ())
 date.netStandardString ("12/5/97; 9:03:15 PM")
 
 <i>Sat, 06 Dec 1997 04:03:15 GMT</i>
-### date.sameDay
+## date.sameDay
 #### Syntax
 date.sameDay (d1, d2)
 
@@ -114,7 +114,7 @@ date.sameDay ("March 12, 2021", "February 12, 2021")
 date.sameDay ("March 12, 2021", "March 12, 2021")
 
 <i>true</i>
-### date.sameMonth
+## date.sameMonth
 #### Syntax
 date.sameMonth (d1, d2)
 
@@ -131,7 +131,7 @@ date.sameMonth ("March 12, 2021", "February 12, 2021")
 date.sameMonth ("March 12, 2021", "March 30, 2021")
 
 <i>true</i>
-### date.secondsSince
+## date.secondsSince
 #### Syntax
 date.secondsSince (date)
 
@@ -148,7 +148,7 @@ Useful when you want to know how long something took.
 date.secondsSince ("March 14, 2020")
 
 <i>31580389.57</i>
-### date.tomorrow
+## date.tomorrow
 #### Syntax
 date.tomorrow (date)
 
@@ -162,7 +162,7 @@ The result of adding 24 hours from the date.
 date.tomorrow (clock.now ())
 
 <i>Mon Mar 15 2021 12:21:22 GMT-0400 (Eastern Daylight Time)</i>
-### date.yesterday
+## date.yesterday
 #### Syntax
 date.yesterday (date)
 
@@ -178,7 +178,7 @@ date.yesterday (clock.now ())
 <i>Sat Mar 13 2021 11:21:02 GMT-0500 (Eastern Standard Time)</i>
 
 # daytona verbs
-### daytona.ping
+## daytona.ping
 #### Syntax
 daytona.ping (urlOutline, collection)
 
@@ -200,7 +200,7 @@ Simply updating the outline is enough to get it to be reindexed, so in most case
 daytona.ping ("http://drummer.scripting.com/cluelessnewbie/blog.opml")
 
 <i>all is good</i>
-### daytona.query
+## daytona.query
 #### Syntax
 daytona.query (query, collection)
 
@@ -216,7 +216,7 @@ The result of the query in a JavaScript object.
 daytona.query ("BBC")
 
 <i>[</i>
-### daytona.resetMyIndex
+## daytona.resetMyIndex
 #### Syntax
 daytona.resetMyIndex (collection)
 
@@ -236,7 +236,7 @@ daytona.removeOutlineRefs is more selective, it only removes references to one o
 daytona.resetMyIndex ()
 
 <i>true</i>
-### daytona.removeOutlineRefs
+## daytona.removeOutlineRefs
 #### Syntax
 daytona.removeOutlineRefs (urlOutline, collection)
 
@@ -257,7 +257,7 @@ daytona.removeOutlineRefs ("http://drummer.scripting.com/cluelessnewbie/blog.opm
 <i>true</i>
 
 # dialog verbs
-### dialog.alert
+## dialog.alert
 #### Syntax
 dialog.alert (string)
 
@@ -271,7 +271,7 @@ The value undefined.
 dialog.alert ("It's sunny outside.")
 
 <i>undefined</i>
-### dialog.ask
+## dialog.ask
 #### Syntax
 dialog.ask (prompt, default, placeholder)
 
@@ -298,7 +298,7 @@ The string the user entered if they pressed OK, or the value undefined if Cancel
 dialog.ask ("Favorite color?", "blue", "A color like blue or red goes here.")
 
 <i>orange</i>
-### dialog.confirm
+## dialog.confirm
 #### Syntax
 dialog.confirm (string)
 
@@ -312,7 +312,7 @@ A boolean, true if the user clicked OK, false if Cancel.
 dialog.confirm ("Really erase all files on your computer?")
 
 <i>true</i>
-### dialog.about
+## dialog.about
 #### Syntax
 dialog.about (string1, string2)
 
@@ -331,7 +331,7 @@ dialog.about (http.readUrl ("http://scripting.com/states.opml"), "States outline
 <i>undefined</i>
 
 # dns verbs
-### dns.getDomainName
+## dns.getDomainName
 #### Syntax
 dns.getDomainName (dottedid)
 
@@ -348,7 +348,7 @@ dns.getDomainName ("52.217.74.35")
 #### Limits
 It only returns one domain name, but there might be more than one domain mapped to a given IP address. 
 
-### dns.getDottedId
+## dns.getDottedId
 #### Syntax
 dns.getDottedId (name)
 
@@ -373,7 +373,7 @@ dns.getDottedId ("asdfasdf.wtf")
 <i>208.113.174.22</i>
 
 # drummer verbs
-### drummer.productname
+## drummer.productname
 #### Syntax
 drummer.productname ()
 
@@ -396,7 +396,7 @@ When you've been doing this for a long time, the value of these kinds of hooks b
 drummer.productname ()
 
 <i>"drummer"</i>
-### drummer.productnameForDisplay
+## drummer.productnameForDisplay
 #### Syntax
 drummer.productnameForDisplay ()
 
@@ -410,7 +410,7 @@ The name of the Drummer app in a form suitable for displaying in a dialog, or ot
 drummer.productnameForDisplay ()
 
 <i>"Drummer"</i>
-### drummer.runScript
+## drummer.runScript
 #### Syntax
 drummer.runScript (string)
 
@@ -432,7 +432,7 @@ drummer.runScript ("dialog.alert (\"Hello World\")")
 drummer.runScript ("100 * 12")
 
 <i>undefined</i>
-### drummer.subscribeToOutline
+## drummer.subscribeToOutline
 #### Syntax
 drummer.subscribeToOutline (string)
 
@@ -454,7 +454,7 @@ See the <a href="https://github.com/scripting/instantOutlines">instantOutlines p
 drummer.subscribeToOutline ("http://scripting.com/states.opml")
 
 <i>true</i>
-### drummer.version
+## drummer.version
 #### Syntax
 drummer.version ()
 
@@ -468,7 +468,7 @@ The current version of the Drummer software.
 drummer.version ()
 
 <i>2.0.6</i>
-### drummer.useStylesheet
+## drummer.useStylesheet
 #### Syntax
 drummer.useStylesheet (string)
 
@@ -490,7 +490,7 @@ drummer.useStylesheet ("http://scripting.com/misc/darkmodestyles.css")
 <i>true</i>
 
 # file verbs
-### file.exists
+## file.exists
 #### Syntax
 file.exists (path)
 
@@ -511,7 +511,7 @@ file.exists ("prefs.json")
 
 file.exists ("meaningOfLife.js")
 
-### file.writeWholeFile
+## file.writeWholeFile
 #### Syntax
 file.writeWholeFile (path, text)
 
@@ -531,7 +531,7 @@ file.writeWholeFile ("hello.txt", "Hello World")
 file.writeWholeFile ("code/alert.js", "dialog.alert ('Yo')") 
 
 <i>true</i>
-### file.readWholeFile
+## file.readWholeFile
 #### Syntax
 file.readWholeFile (path)
 
@@ -545,7 +545,7 @@ The contents of the file, as a string.
 file.readWholeFile ("hello.txt") 
 
 <i>Hello World</i>
-### file.delete
+## file.delete
 #### Syntax
 file.delete (path)
 
@@ -565,7 +565,7 @@ file.readWholeFile ("deleteme.txt")
 file.delete ("deleteme.txt")
 
 <i>undefined</i>
-### file.getFileInfo
+## file.getFileInfo
 #### Syntax
 file.getFileInfo (path)
 
@@ -584,7 +584,7 @@ file.getFileInfo ("states.opml")
 file.getFileInfo ("scratchpad.opml")
 
 <i>{</i>
-### file.makeFilePublic
+## file.makeFilePublic
 #### Syntax
 file.makeFilePublic (path)
 
@@ -601,7 +601,7 @@ file.makeFilePublic ("hello.txt")
 http.readUrl ("http://drummer.scripting.com/davewiner/hello.txt")
 
 <i>Hello World</i>
-### file.getFileHierarchy
+## file.getFileHierarchy
 #### Syntax
 file.getFileHierarchy ()
 
@@ -631,7 +631,7 @@ console.log (jsonStringify (file.getFileHierarchy ()))
 <i>undefined</i>
 
 # github verbs
-### github.connectViaOauth
+## github.connectViaOauth
 #### Syntax
 github.connectViaOauth ()
 
@@ -658,7 +658,7 @@ github.connectViaOauth ()
 localStorage.githubAccessToken //this is where you access token is stored
 
 <i>1234567890123456789012345678901234567890</i>
-### github.disconnect
+## github.disconnect
 #### Syntax
 github.disconnect ()
 
@@ -677,7 +677,7 @@ true
 github.disconnect ()
 
 <i>true</i>
-### github.download
+## github.download
 #### Syntax
 github.download (username, repository, path)
 
@@ -696,7 +696,7 @@ base64.decode (github.download ("scripting", "Scripting-News", "/blog/stories/20
 github.download ("scripting", "Scripting-News", "/blog/stories/2020/02/15/a142106.md").size
 
 <i>319</i>
-### github.getAccessToken
+## github.getAccessToken
 #### Syntax
 github.getAccessToken ()
 
@@ -710,7 +710,7 @@ The access token if you're logged in, undefined if not.
 github.getAccessToken ()
 
 <i>1234567890123456789012345678901234567890</i>
-### github.getDirectory
+## github.getDirectory
 #### Syntax
 github.getDirectory (username, repository, path)
 
@@ -729,7 +729,7 @@ github.getDirectory ("scripting", "tmp1")
 github.getDirectory ("scripting", "Scripting-News", "/blog/opml/2017")
 
 <i>[</i>
-### github.getUserInfo
+## github.getUserInfo
 #### Syntax
 github.getUserInfo (string)
 
@@ -746,7 +746,7 @@ github.getUserInfo ()
 github.getUserInfo ("octocat")
 
 <i>{</i>
-### github.upload
+## github.upload
 #### Syntax
 github.upload (username, repository, path, data, message)
 
@@ -768,7 +768,7 @@ github.upload ("scripting", "tmp1", "hello.txt", "Hello World")
 <i>{</i>
 
 # http verbs
-### http.client
+## http.client
 #### Syntax
 http.client (options, boolean)
 
@@ -802,7 +802,7 @@ It's named after the Frontier verb <a href="http://docserver.userland.com/tcp/ht
 http.client ({url: "http://drummer.scripting.com/now"}, true)
 
 <i>Fri Nov 05 2021 13:05:15 GMT-0400 (Eastern Daylight Time)</i>
-### http.readUrl
+## http.readUrl
 #### Syntax
 http.readUrl (string, boolean)
 
@@ -829,7 +829,7 @@ http.readUrl ("http://scripting.com/rss.xml", false).length
 http.readUrl ("http://localhost:1410/now", false)
 
 <i>Mon Aug 09 2021 16:35:28 GMT-0400 (Eastern Daylight Time)</i>
-### http.derefUrl
+## http.derefUrl
 #### Syntax
 http.derefUrl (string)
 
@@ -851,7 +851,7 @@ http.derefUrl ("https://scripting.com/")
 <i>http://scripting.com/</i>
 
 # oldSchool verbs
-### oldSchool.buildBlog
+## oldSchool.buildBlog
 #### Syntax
 oldSchool.buildBlog (boolean)
 
@@ -871,7 +871,7 @@ oldSchool.buildBlog ()
 oldSchool.buildBlog (true)
 
 <i>{</i>
-### oldSchool.getCursorLink
+## oldSchool.getCursorLink
 #### Syntax
 oldSchool.getCursorLink ()
 
@@ -894,7 +894,7 @@ oldSchool.getCursorLink ()
 <i>http://clueless.lucky.wtf/2021/11/14.html#a232957</i>
 
 # opml verbs
-### opml.parse
+## opml.parse
 #### Syntax
 opml.parse (string)
 
@@ -911,7 +911,7 @@ A JavaScript object representing the outline.
 opml.parse (file.readWholeFile ("hello.opml"))
 
 <i>{</i>
-### opml.stringify
+## opml.stringify
 #### Syntax
 opml.stringify (object)
 
@@ -926,7 +926,7 @@ opml.stringify (opml.parse (file.readWholeFile ("hello.opml")))
 
 <i>&lt;?xml version="1.0" encoding="ISO-8859-1"?></i>
 <i>&lt;opml version="2.0"></i>
-### opml.attributes.addGroup
+## opml.attributes.addGroup
 #### Syntax
 opml.attributes.addGroup (string, object)
 
@@ -947,7 +947,7 @@ The attributes of the file after the opml.attributes.setAll call.
 opml.attributes.addGroup ("tmp.opml", {school: "Bronx Science", gpa: 3.5, major: "Art History"})
 
 <i>{</i>
-### opml.attributes.deleteOne
+## opml.attributes.deleteOne
 #### Syntax
 opml.attributes.deleteOne (string, string)
 
@@ -968,7 +968,7 @@ The attributes of the file after the opml.attributes.deleteOne call.
 opml.attributes.deleteOne ("tmp.opml", "height")
 
 <i>{</i>
-### opml.attributes.exists
+## opml.attributes.exists
 #### Syntax
 opml.attributes.exists (string, string)
 
@@ -987,7 +987,7 @@ opml.attributes.exists ("tmp.opml", "major")
 opml.attributes.exists ("tmp.opml", "minor")
 
 <i>false</i>
-### opml.attributes.getAll
+## opml.attributes.getAll
 #### Syntax
 opml.attributes.getAll (string)
 
@@ -1001,7 +1001,7 @@ All the elements of the &lt;head> section of the OPML file for the outline.
 opml.attributes.getAll ("scratchpad.opml")
 
 <i>{</i>
-### opml.attributes.getOne
+## opml.attributes.getOne
 #### Syntax
 opml.attributes.getOne (string, string)
 
@@ -1022,7 +1022,7 @@ opml.attributes.getOne ("tmp.opml", "name")
 opml.attributes.getOne ("tmp.opml", "hometown")
 
 <i>undefined</i>
-### opml.attributes.makeEmpty
+## opml.attributes.makeEmpty
 #### Syntax
 opml.attributes.makeEmpty (string)
 
@@ -1039,7 +1039,7 @@ The attributes of the file after the opml.attributes.deleteOne call.
 opml.attributes.makeEmpty ("tmp.opml")
 
 <i>{ }</i>
-### opml.attributes.setAll
+## opml.attributes.setAll
 #### Syntax
 opml.attributes.setAll (string, object)
 
@@ -1060,7 +1060,7 @@ The attributes of the file after the opml.attributes.setAll call.
 opml.attributes.setAll ("tmp.opml", {name: "Bjorn Barker", age: 32})
 
 <i>true</i>
-### opml.attributes.setOne
+## opml.attributes.setOne
 #### Syntax
 opml.attributes.setOne (string, string, value)
 
@@ -1083,7 +1083,7 @@ The attributes of the file after the opml.attributes.setOne call.
 opml.attributes.setOne ("tmp.opml", "height", 5.5 * 12)
 
 <i>{</i>
-### opml.getCurrentObject
+## opml.getCurrentObject
 #### Syntax
 opml.getCurrentObject ()
 
@@ -1100,7 +1100,7 @@ It does what opml.getCurrentOpml does, except instead of returning OPML text, it
 opml.getCurrentObject ()
 
 <i>{</i>
-### opml.getCurrentOpml
+## opml.getCurrentOpml
 #### Syntax
 opml.getCurrentOpml ()
 
@@ -1115,7 +1115,7 @@ opml.getCurrentOpml ()
 
 <i>&lt;?xml version="1.0"?></i>
 <i>&lt;opml version="2.0"></i>
-### opml.getMarkdown
+## opml.getMarkdown
 #### Syntax
 opml.getMarkdown (opmltext)
 
@@ -1154,7 +1154,7 @@ Which generated this text.
 <i>Plain</i>
 <i><br></i>
 <i>Sauces</i>
-### opml.getHeaders
+## opml.getHeaders
 #### Syntax
 opml.getHeaders ()
 
@@ -1168,7 +1168,7 @@ All the elements of the &lt;head> section of the OPML file for the current outli
 opml.getHeaders ()
 
 <i>{     "title": "verbDocs",     "dateCreated": "Mon, 22 Mar 2021 16:14:46 GMT",     "dateModified": "Wed, 07 Apr 2021 15:45:15 GMT",     "expansionState": "5,6,7,9,11,13,17",     "lastCursor": "13",     "ownerTwitterScreenName": "davewiner",     "ownerName": "Dave Winer",     "ownerId": "http://twitter.com/davewiner",     "urlUpdateSocket": "ws://test.littleoutliner.com:1230/",     "longTitle": "",     "description": "" }</i>
-### opml.setHeaders
+## opml.setHeaders
 #### Syntax
 opml.setHeaders (object)
 
@@ -1192,7 +1192,7 @@ opml.setHeaders (headers);
 
 
 # base64 verbs
-### base64.encode
+## base64.encode
 #### Syntax
 base64.encode (string)
 
@@ -1206,7 +1206,7 @@ The base64 encoding of the string.
 base64.encode ("Hello Dolly")
 
 <i>SGVsbG8gRG9sbHk=</i>
-### base64.decode
+## base64.decode
 #### Syntax
 base64.decode (string)
 
@@ -1225,7 +1225,7 @@ base64.decode (base64.encode ("It's a wonderful day in the neighborhood."))
 <i>It's a wonderful day in the neighborhood.</i>
 
 # rss verbs
-### rss.readFeed
+## rss.readFeed
 #### Syntax
 rss.readFeed (url)
 
@@ -1244,7 +1244,7 @@ rss.readFeed ("http://scripting.com/rss.xml")
 <i>{</i>
 
 # speaker verbs
-### speaker.beep
+## speaker.beep
 #### Syntax
 speaker.beep ()
 
@@ -1263,7 +1263,7 @@ speaker.beep () === undefined
 <i>true</i>
 
 # string verbs
-### string.addCommas
+## string.addCommas
 #### Syntax
 string.addCommas (number)
 
@@ -1283,7 +1283,7 @@ string.addCommas (12)
 string.addCommas ("abcdefghijklmnopqrstuvwxyz")
 
 <i>abcdefghijklmnopqrstuvwxyz</i>
-### string.addPeriodAtEnd
+## string.addPeriodAtEnd
 #### Syntax
 string.addPeriodAtEnd (string)
 
@@ -1309,7 +1309,7 @@ string.addPeriodAtEnd ("I like ice cream")
 string.addPeriodAtEnd ("What is your favorite flavor?")
 
 <i>What is your favorite flavor?</i>
-### string.beginsWith
+## string.beginsWith
 #### Syntax
 string.beginsWith (s, possibleBeginning, flUnicase)
 
@@ -1325,7 +1325,7 @@ true if the string begins with the other, false if it doesn't.
 string.beginsWith ("hooray for hollywood", "hoo")
 
 <i>true</i>
-### string.bumpUrlString
+## string.bumpUrlString
 #### Syntax
 string.bumpUrlString (string)
 
@@ -1353,7 +1353,7 @@ string.bumpUrlString ("zz")
 string.bumpUrlString ("ZZ") //not case-sensitive
 
 <i>000</i>
-### string.contains
+## string.contains
 #### Syntax
 string.contains (s, whatItMightContain, flUnicase) returns boolean
 
@@ -1368,7 +1368,7 @@ true if the string contains the other, false if it doesn't.
 #### Example
 dialog.alert (string.contains ("http://november.com", "november")) //displays true
 
-### string.countFields
+## string.countFields
 #### Syntax
 string.countFields (s, ch)
 
@@ -1393,7 +1393,7 @@ string.nthField
 
 string.lastField
 
-### string.dayOfWeekToString
+## string.dayOfWeekToString
 #### Syntax
 string.dayOfWeekToString (number)
 
@@ -1413,7 +1413,7 @@ string.dayOfWeekToString (3)
 #### See also
 string.monthToString
 
-### string.decodeXml
+## string.decodeXml
 #### Syntax
 string.decodeXml (string)
 
@@ -1435,7 +1435,7 @@ string.decodeXml ("&amp;lt;script&amp;gt;")
 string.decodeXml ("Lennon &amp;amp; McCartney")
 
 <i>Lennon & McCartney</i>
-### string.delete
+## string.delete
 #### Syntax
 string.delete (string, index, count)
 
@@ -1464,7 +1464,7 @@ string.delete ("123456789", 2, 1000)
 string.delete ("123456789", 100, 3)
 
 <i>123456789</i>
-### string.encodeHtml
+## string.encodeHtml
 #### Syntax
 string.encodeHtml (string)
 
@@ -1486,7 +1486,7 @@ string.encodeHtml ("Still diggin!")
 string.encodeHtml ("I <b>love</b> a parade")
 
 <i>I &#60;b&#62;love&#60;/b&#62; a parade</i>
-### string.endsWith
+## string.endsWith
 #### Syntax
 string.endsWith (string1, string2, boolean)
 
@@ -1510,7 +1510,7 @@ string.endsWith ("Hooray for Hollywood", "Wood", false)
 string.endsWith ("Hooray for Hollywood", "wheat")
 
 <i>false</i>
-### string.extensionToMimeType
+## string.extensionToMimeType
 #### Syntax
 string.extensionToMimeType (string)
 
@@ -1543,7 +1543,7 @@ string.extensionToMimeType ("profile.png")
 string.extensionToMimeType ("profile.jpg")
 
 <i>image/jpeg</i>
-### string.filledString
+## string.filledString
 #### Syntax
 string.filledString (character, count)
 
@@ -1565,7 +1565,7 @@ string.filledString ("123 ", 10)
 string.filledString ("\t", 3)
 
 <i>   </i>
-### string.formatDate
+## string.formatDate
 #### Syntax
 string.formatDate (date, format, timezone)
 
@@ -1601,7 +1601,7 @@ string.formatDate (clock.now (), "%l:%M %p")
 string.formatDate (undefined, "%A, %B %e, %Y at %l:%M %p") + "."
 
 <i>Sunday, March 14, 2021 at 11:27 AM.</i>
-### string.getRandomPassword
+## string.getRandomPassword
 #### Syntax
 string.getRandomPassword (count)
 
@@ -1618,7 +1618,7 @@ string.getRandomPassword (20)
 string.getRandomPassword (20)
 
 <i>pv8snpjvmbl4np4kh4mt</i>
-### string.hashMD5
+## string.hashMD5
 #### Syntax
 string.hashMD5 (string)
 
@@ -1638,7 +1638,7 @@ string.hashMD5 ("Spring forward, fall back.")
 string.hashMD5 ("It's even worse than it appears")
 
 <i>d7adfe509535ad6de49a8baf0fbf7a3d</i>
-### string.innerCaseName
+## string.innerCaseName
 #### Syntax
 string.innerCaseName (string)
 
@@ -1655,7 +1655,7 @@ It's useful for creating a file name or URL from a title.
 string.innerCaseName ("The story of my life") + ".mp3"
 
 <i>theStoryOfMyLife.mp3</i>
-### string.insert
+## string.insert
 #### Syntax
 string.insert (source, dest, ix)
 
@@ -1675,7 +1675,7 @@ string.insert ("Bull ", "My name is Mancuso.", 11)
 string.insert ("Hello ", " from Hollywood", 1)
 
 <i> Hello from Hollywood</i>
-### string.isAlpha
+## string.isAlpha
 #### Syntax
 string.isAlpha (ch)
 
@@ -1710,7 +1710,7 @@ string.isWhitespace
 
 string.isPunctuation
 
-### string.isNumeric
+## string.isNumeric
 #### Syntax
 string.isNumeric (ch)
 
@@ -1745,7 +1745,7 @@ string.isWhitespace
 
 string.isPunctuation
 
-### string.isPunctuation
+## string.isPunctuation
 #### Syntax
 string.isPunctuation (ch)
 
@@ -1786,7 +1786,7 @@ string.isPunctuation
 
 string.trimWhitespace
 
-### string.isWhitespace
+## string.isWhitespace
 #### Syntax
 string.isWhitespace (ch)
 
@@ -1822,7 +1822,7 @@ string.isPunctuation
 
 string.trimWhitespace
 
-### string.lastField
+## string.lastField
 #### Syntax
 string.lastField (s, ch)
 
@@ -1852,7 +1852,7 @@ string.nthField
 
 string.countFields
 
-### string.lower
+## string.lower
 #### Syntax
 string.lower (s) returns string
 
@@ -1868,7 +1868,7 @@ dialog.alert (string.lower ("Everyone Do The Hamster Dance!"))
 #### See also
 string.upper
 
-### string.maxStringLength
+## string.maxStringLength
 #### Syntax
 string.maxStringLength (string, maxlength, flWholeWordAtEnd, flAddElipses)
 
@@ -1889,7 +1889,7 @@ string.maxStringLength ("I have a long story I would like to tell you. It begins
 string.maxStringLength ("You know nothing Jon Snow." , 80)
 
 <i>You know nothing Jon Snow.</i>
-### string.markdownProcess
+## string.markdownProcess
 #### Syntax
 string.markdownProcess (string)
 
@@ -1912,7 +1912,7 @@ string.markdownProcess ("I read [Scripting News](http://scripting.com/).")
 string.markdownProcess ("* one\n* two\n* three\n")
 
 <i><ul></i>
-### string.mid
+## string.mid
 #### Syntax
 string.mid (string, ix, ct)
 
@@ -1943,7 +1943,7 @@ string.delete
 
 string.insert
 
-### string.monthToString
+## string.monthToString
 #### Syntax
 string.monthToString (number)
 
@@ -1963,7 +1963,7 @@ string.monthToString (100)
 #### See also
 string.dayOfWeekToString
 
-### string.multipleReplaceAll
+## string.multipleReplaceAll
 #### Syntax
 string.multipleReplaceAll (s, replaceTable, flCaseSensitive, startCharacters, endCharacters)
 
@@ -1988,7 +1988,7 @@ string.multipleReplaceAll ("This house costs $293,000.", {"house": "apartment", 
 #### See also
 string.replaceAll
 
-### string.nthField
+## string.nthField
 #### Syntax
 string.nthField (s, ch, n)
 
@@ -2009,7 +2009,7 @@ string.lastField
 
 string.countFields
 
-### string.padWithZeros
+## string.padWithZeros
 #### Syntax
 string.padWithZeros (number, ct)
 
@@ -2036,7 +2036,7 @@ string.delete
 
 string.insert
 
-### string.popExtension
+## string.popExtension
 #### Syntax
 string.popExtension (s)
 
@@ -2055,7 +2055,7 @@ string.popLastField
 
 string.popTrailing
 
-### string.popLastField
+## string.popLastField
 #### Syntax
 string.popLastField (s, ch)
 
@@ -2082,7 +2082,7 @@ string.countFields
 
 string.lastField
 
-### string.popTrailing
+## string.popTrailing
 #### Syntax
 string.popTrailing (s, ch)
 
@@ -2101,7 +2101,7 @@ string.popLastField
 
 string.popExtension
 
-### string.randomSnarkySlogan
+## string.randomSnarkySlogan
 #### Syntax
 string.randomSnarkySlogan ()
 
@@ -2127,7 +2127,7 @@ string.randomSnarkySlogan ()
 string.randomSnarkySlogan ()
 
 <i>It's even worse than it appears.</i>
-### string.replaceAll
+## string.replaceAll
 #### Syntax
 string.replaceAll (s, searchFor, replaceWith)
 
@@ -2144,7 +2144,7 @@ string.replaceAll ("raise your hand if you're happy", " ", "---")
 #### See also
 string.multipleReplaceAll
 
-### string.stripMarkup
+## string.stripMarkup
 #### Syntax
 string.stripMarkup (string)
 
@@ -2158,7 +2158,7 @@ The string without the HTML markup.
 string.stripMarkup ("Sometimes <b>you</b> don't <i>want</i> the <u>markup</u>.")
 
 <i>Sometimes you don't want the markup.</i>
-### string.trimLeading
+## string.trimLeading
 #### Syntax
 string.trimLeading (string, ch)
 
@@ -2175,7 +2175,7 @@ string.trimLeading ("$$$$$We don't need the dollar signs at the beginning of thi
 #### See also
 string.trimTrailing
 
-### string.trimTrailing
+## string.trimTrailing
 #### Syntax
 string.trimTrailing (string, ch)
 
@@ -2192,7 +2192,7 @@ string.trimTrailing ("We don't need the question marks at the end of this string
 #### See also
 string.trimLeading
 
-### string.trimWhitespace
+## string.trimWhitespace
 #### Syntax
 string.trimWhitespace (string)
 
@@ -2215,7 +2215,7 @@ string.trimWhitespace ("   Alice   ") == "Alice"
 #### See also
 string.trimLeading
 
-### string.upper
+## string.upper
 #### Syntax
 string.upper (s) returns string
 
@@ -2233,7 +2233,7 @@ string.lower
 
 
 # tab verbs
-### tab.getPublicUrl
+## tab.getPublicUrl
 #### Syntax
 tab.getPublicUrl () returns string
 
@@ -2249,7 +2249,7 @@ A web address or undefined.
 dialog.alert (tab.getPublicUrl ())
 
 <i>undefined</i>
-### tab.openFile
+## tab.openFile
 #### Syntax
 tab.openFile (string, string)
 
@@ -2274,7 +2274,7 @@ tab.openFile ("hello3.opml")
 tab.openFile ("hello3.opml", "My Favorite File") 
 
 <i>true</i>
-### tab.openInstantOutline
+## tab.openInstantOutline
 #### Syntax
 tab.openInstantOutline (string, string)
 
@@ -2298,7 +2298,7 @@ tab.openInstantOutline ("http://instantoutliner.com/o0", "The states outline")
 <i>true</i>
 
 # webBrowser verbs
-### webBrowser.openUrl
+## webBrowser.openUrl
 #### Syntax
 webBrowser.openUrl (string)
 
