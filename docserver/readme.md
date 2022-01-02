@@ -11,6 +11,7 @@ A JavaScript date object with the current date and time.
 clock.now ()
 
 > *Tue Mar 16 2021 14:31:39 GMT-0400 (Eastern Daylight Time)*
+
 ## clock.waitSeconds
 #### Syntax
 clock.waitSeconds (number)
@@ -28,12 +29,15 @@ The waiting is done via a JavaScript <a href="https://www.w3schools.com/jsref/me
 clock.waitSeconds (1)
 
 > *1.005*
+
 clock.waitSeconds (1.3)
 
 > *1.3*
+
 clock.waitSeconds (random (1, 3))
 
 > *2.005*
+
 
 # date verbs
 ## date.convertToTimeZone
@@ -58,6 +62,7 @@ This is a core routine for building blogs that might be published by software ru
 date.convertToTimeZone (clock.now (), "+5:30").toLocaleString ()
 
 > *11/15/2021, 8:45:29 PM*
+
 ## date.dayGreaterThanOrEqual
 #### Syntax
 date.dayGreaterThanOrEqual (d1, d2)
@@ -75,6 +80,7 @@ This verb is useful in determining which version of software you're running, if 
 date.dayGreaterThanOrEqual (clock.now (), "November 22, 2018")
 
 > *true*
+
 ## date.netStandardString
 #### Syntax
 date.netStandardString (date)
@@ -94,9 +100,11 @@ It's a human and machine readable way of expressing of dates.
 date.netStandardString (clock.now ())
 
 > *Sun, 14 Mar 2021 16:28:56 GMT*
+
 date.netStandardString ("12/5/97; 9:03:15 PM")
 
 > *Sat, 06 Dec 1997 04:03:15 GMT*
+
 ## date.sameDay
 #### Syntax
 date.sameDay (d1, d2)
@@ -111,9 +119,11 @@ true if the dates are on the same day, false otherwise.
 date.sameDay ("March 12, 2021", "February 12, 2021")
 
 > *false*
+
 date.sameDay ("March 12, 2021", "March 12, 2021")
 
 > *true*
+
 ## date.sameMonth
 #### Syntax
 date.sameMonth (d1, d2)
@@ -128,9 +138,11 @@ true if the dates are in the same month, false otherwise.
 date.sameMonth ("March 12, 2021", "February 12, 2021")
 
 > *false*
+
 date.sameMonth ("March 12, 2021", "March 30, 2021")
 
 > *true*
+
 ## date.secondsSince
 #### Syntax
 date.secondsSince (date)
@@ -148,6 +160,7 @@ Useful when you want to know how long something took.
 date.secondsSince ("March 14, 2020")
 
 > *31580389.57*
+
 ## date.tomorrow
 #### Syntax
 date.tomorrow (date)
@@ -162,6 +175,7 @@ The result of adding 24 hours from the date.
 date.tomorrow (clock.now ())
 
 > *Mon Mar 15 2021 12:21:22 GMT-0400 (Eastern Daylight Time)*
+
 ## date.yesterday
 #### Syntax
 date.yesterday (date)
@@ -176,6 +190,7 @@ The result of subtracting 24 hours from the date.
 date.yesterday (clock.now ())
 
 > *Sat Mar 13 2021 11:21:02 GMT-0500 (Eastern Standard Time)*
+
 
 # daytona verbs
 ## daytona.ping
@@ -200,6 +215,7 @@ Simply updating the outline is enough to get it to be reindexed, so in most case
 daytona.ping ("http://drummer.scripting.com/cluelessnewbie/blog.opml")
 
 > *all is good*
+
 ## daytona.query
 #### Syntax
 daytona.query (query, collection)
@@ -216,6 +232,7 @@ The result of the query in a JavaScript object.
 daytona.query ("BBC")
 
 > *[*
+
 ## daytona.resetMyIndex
 #### Syntax
 daytona.resetMyIndex (collection)
@@ -236,6 +253,7 @@ daytona.removeOutlineRefs is more selective, it only removes references to one o
 daytona.resetMyIndex ()
 
 > *true*
+
 ## daytona.removeOutlineRefs
 #### Syntax
 daytona.removeOutlineRefs (urlOutline, collection)
@@ -256,6 +274,7 @@ daytona.removeOutlineRefs ("http://drummer.scripting.com/cluelessnewbie/blog.opm
 
 > *true*
 
+
 # dialog verbs
 ## dialog.alert
 #### Syntax
@@ -271,6 +290,7 @@ The value undefined.
 dialog.alert ("It's sunny outside.")
 
 > *undefined*
+
 ## dialog.ask
 #### Syntax
 dialog.ask (prompt, default, placeholder)
@@ -298,6 +318,7 @@ The string the user entered if they pressed OK, or the value undefined if Cancel
 dialog.ask ("Favorite color?", "blue", "A color like blue or red goes here.")
 
 > *orange*
+
 ## dialog.confirm
 #### Syntax
 dialog.confirm (string)
@@ -312,6 +333,7 @@ A boolean, true if the user clicked OK, false if Cancel.
 dialog.confirm ("Really erase all files on your computer?")
 
 > *true*
+
 ## dialog.about
 #### Syntax
 dialog.about (string1, string2)
@@ -330,6 +352,7 @@ dialog.about (http.readUrl ("http://scripting.com/states.opml"), "States outline
 
 > *undefined*
 
+
 # dns verbs
 ## dns.getDomainName
 #### Syntax
@@ -345,6 +368,7 @@ There is no domain associated with the provided dotted id.
 dns.getDomainName ("52.217.74.35") 
 
 > *s3-website-us-east-1.amazonaws.com*
+
 #### Limits
 It only returns one domain name, but there might be more than one domain mapped to a given IP address. 
 
@@ -365,12 +389,15 @@ When there's an error, the error message is undefined.
 dns.getDottedId ("scripting.com")
 
 > *52.217.103.83*
+
 dns.getDottedId ("feedbase.io")
 
 > *157.230.11.43*
+
 dns.getDottedId ("asdfasdf.wtf")
 
 > *208.113.174.22*
+
 
 # drummer verbs
 ## drummer.productname
@@ -396,6 +423,7 @@ When you've been doing this for a long time, the value of these kinds of hooks b
 drummer.productname ()
 
 > *"drummer"*
+
 ## drummer.productnameForDisplay
 #### Syntax
 drummer.productnameForDisplay ()
@@ -410,6 +438,7 @@ The name of the Drummer app in a form suitable for displaying in a dialog, or ot
 drummer.productnameForDisplay ()
 
 > *"Drummer"*
+
 ## drummer.runScript
 #### Syntax
 drummer.runScript (string)
@@ -429,9 +458,11 @@ In the second example below, nothing happens.
 drummer.runScript ("dialog.alert (\"Hello World\")")
 
 > *undefined*
+
 drummer.runScript ("100 * 12")
 
 > *undefined*
+
 ## drummer.subscribeToOutline
 #### Syntax
 drummer.subscribeToOutline (string)
@@ -454,6 +485,7 @@ See the <a href="https://github.com/scripting/instantOutlines">instantOutlines p
 drummer.subscribeToOutline ("http://scripting.com/states.opml")
 
 > *true*
+
 ## drummer.version
 #### Syntax
 drummer.version ()
@@ -468,6 +500,7 @@ The current version of the Drummer software.
 drummer.version ()
 
 > *2.0.6*
+
 ## drummer.useStylesheet
 #### Syntax
 drummer.useStylesheet (string)
@@ -488,6 +521,7 @@ We're using this <a href="https://stackoverflow.com/questions/14028113/load-diff
 drummer.useStylesheet ("http://scripting.com/misc/darkmodestyles.css")
 
 > *true*
+
 
 # file verbs
 ## file.exists
@@ -528,9 +562,11 @@ Files are, by default, private. If you want to create a public file, first creat
 file.writeWholeFile ("hello.txt", "Hello World")
 
 > *true*
+
 file.writeWholeFile ("code/alert.js", "dialog.alert ('Yo')") 
 
 > *true*
+
 ## file.readWholeFile
 #### Syntax
 file.readWholeFile (path)
@@ -545,6 +581,7 @@ The contents of the file, as a string.
 file.readWholeFile ("hello.txt") 
 
 > *Hello World*
+
 ## file.delete
 #### Syntax
 file.delete (path)
@@ -559,12 +596,15 @@ undefined
 file.writeWholeFile ("deleteme.txt", "It's even worse than it appears.")
 
 > *true*
+
 file.readWholeFile ("deleteme.txt")
 
 > *It's even worse than it appears.*
+
 file.delete ("deleteme.txt")
 
 > *undefined*
+
 ## file.getFileInfo
 #### Syntax
 file.getFileInfo (path)
@@ -581,9 +621,11 @@ If the file is public, urlPublic, the address of the file, is included.
 file.getFileInfo ("states.opml") 
 
 > *{*
+
 file.getFileInfo ("scratchpad.opml")
 
 > *{*
+
 ## file.makeFilePublic
 #### Syntax
 file.makeFilePublic (path)
@@ -598,9 +640,11 @@ The public URL of the file.
 file.makeFilePublic ("hello.txt")
 
 > *http://drummer.scripting.com/davewiner/hello.txt*
+
 http.readUrl ("http://drummer.scripting.com/davewiner/hello.txt")
 
 > *Hello World*
+
 ## file.getFileHierarchy
 #### Syntax
 file.getFileHierarchy ()
@@ -626,9 +670,11 @@ And the Outline file hierarchy command in the Tools menu is built on file.getFil
 file.getFileHierarchy ()
 
 > *{*
+
 console.log (jsonStringify (file.getFileHierarchy ()))
 
 > *undefined*
+
 
 # github verbs
 ## github.connectViaOauth
@@ -655,9 +701,11 @@ true
 github.connectViaOauth ()
 
 > *true*
+
 localStorage.githubAccessToken //this is where you access token is stored
 
 > *1234567890123456789012345678901234567890*
+
 ## github.disconnect
 #### Syntax
 github.disconnect ()
@@ -677,6 +725,7 @@ true
 github.disconnect ()
 
 > *true*
+
 ## github.download
 #### Syntax
 github.download (username, repository, path)
@@ -693,9 +742,11 @@ A JavaScript object with information about the file, including its contents.
 base64.decode (github.download ("scripting", "Scripting-News", "/blog/stories/2020/02/15/a142106.md").content)
 
 > *Questions for all Democratic candidates, esp <a href="http://scripting.com/2020/02/14/141155.html?title=presidentBloombergReallyADemocrat">Bloomberg</a>. Do you feel the president is above the law? If you are elected, will you use the new powers Trump has taken for himself? What will you do if Trump refuses to leave?*
+
 github.download ("scripting", "Scripting-News", "/blog/stories/2020/02/15/a142106.md").size
 
 > *319*
+
 ## github.getAccessToken
 #### Syntax
 github.getAccessToken ()
@@ -710,6 +761,7 @@ The access token if you're logged in, undefined if not.
 github.getAccessToken ()
 
 > *1234567890123456789012345678901234567890*
+
 ## github.getDirectory
 #### Syntax
 github.getDirectory (username, repository, path)
@@ -726,9 +778,11 @@ A JavaScript object containing information about all the files in the directory.
 github.getDirectory ("scripting", "tmp1")
 
 > *[*
+
 github.getDirectory ("scripting", "Scripting-News", "/blog/opml/2017")
 
 > *[*
+
 ## github.getUserInfo
 #### Syntax
 github.getUserInfo (string)
@@ -743,9 +797,11 @@ If the username is not provided, github.getUserInfo returns a JavaScript object 
 github.getUserInfo ()
 
 > *{*
+
 github.getUserInfo ("octocat")
 
 > *{*
+
 ## github.upload
 #### Syntax
 github.upload (username, repository, path, data, message)
@@ -766,6 +822,7 @@ All the information GitHub returns about the upload.
 github.upload ("scripting", "tmp1", "hello.txt", "Hello World")
 
 > *{*
+
 
 # http verbs
 ## http.client
@@ -791,9 +848,13 @@ In its first release in November 2021, it is far from complete. But it gives you
 The options struct is what you would pass to a <a href="https://www.w3schools.com/jquery/ajax_ajax.asp">jQuery AJAX call</a>. Here's a list of values it looks for: 
 
 > *type -- the HTTP method, such as GET, POST, HEAD. *
+
 > *url -- the address the request is directed to*
+
 > *data -- the data that is passed in the body of the request. *
+
 > *params -- a JavaScript object containing the search params for the request. *
+
 There's a new endpoint in <a href="https://www.npmjs.com/package/daveappserver">daveappserver</a> that acts as the proxy server for this verb. It is deployed at drummer.scripting.com.
 
 It's named after the Frontier verb <a href="http://docserver.userland.com/tcp/httpClient">tcp.httpClient</a>, which had a very long param list. In this version I opted for a struct instead. The intention is to do all that the Frontier verb does in this verb, in Drummer.
@@ -802,6 +863,7 @@ It's named after the Frontier verb <a href="http://docserver.userland.com/tcp/ht
 http.client ({url: "http://drummer.scripting.com/now"}, true)
 
 > *Fri Nov 05 2021 13:05:15 GMT-0400 (Eastern Daylight Time)*
+
 ## http.readUrl
 #### Syntax
 http.readUrl (string, boolean)
@@ -823,12 +885,15 @@ If you can make the request without using the proxy server it will be faster, an
 http.readUrl ("http://scripting.com/rss.xml", false).length
 
 > *73700*
+
 http.readUrl ("http://scripting.com/rss.xml", false).length
 
 > *73700*
+
 http.readUrl ("http://localhost:1410/now", false)
 
 > *Mon Aug 09 2021 16:35:28 GMT-0400 (Eastern Daylight Time)*
+
 ## http.derefUrl
 #### Syntax
 http.derefUrl (string)
@@ -846,9 +911,11 @@ If the address is not a shortened url, it returns the address itself. If it is, 
 http.derefUrl ("https://tinyurl.com/yvfkvaps")
 
 > *http://scripting.com/*
+
 http.derefUrl ("https://scripting.com/")
 
 > *http://scripting.com/*
+
 
 # oldSchool verbs
 ## oldSchool.buildBlog
@@ -868,9 +935,11 @@ The web address of the user's blog if the boolean is false, otherwise all the da
 oldSchool.buildBlog ()
 
 > *http://oldschool.scripting.com/cluelessnewbie/*
+
 oldSchool.buildBlog (true)
 
 > *{*
+
 ## oldSchool.getCursorLink
 #### Syntax
 oldSchool.getCursorLink ()
@@ -893,6 +962,7 @@ oldSchool.getCursorLink ()
 
 > *http://clueless.lucky.wtf/2021/11/14.html#a232957*
 
+
 # opml verbs
 ## opml.parse
 #### Syntax
@@ -911,6 +981,7 @@ A JavaScript object representing the outline.
 opml.parse (file.readWholeFile ("hello.opml"))
 
 > *{*
+
 ## opml.stringify
 #### Syntax
 opml.stringify (object)
@@ -925,7 +996,9 @@ The OPML text for the object.
 opml.stringify (opml.parse (file.readWholeFile ("hello.opml")))
 
 > *&lt;?xml version="1.0" encoding="ISO-8859-1"?>*
+
 > *&lt;opml version="2.0">*
+
 ## opml.attributes.addGroup
 #### Syntax
 opml.attributes.addGroup (string, object)
@@ -947,6 +1020,7 @@ The attributes of the file after the opml.attributes.setAll call.
 opml.attributes.addGroup ("tmp.opml", {school: "Bronx Science", gpa: 3.5, major: "Art History"})
 
 > *{*
+
 ## opml.attributes.deleteOne
 #### Syntax
 opml.attributes.deleteOne (string, string)
@@ -968,6 +1042,7 @@ The attributes of the file after the opml.attributes.deleteOne call.
 opml.attributes.deleteOne ("tmp.opml", "height")
 
 > *{*
+
 ## opml.attributes.exists
 #### Syntax
 opml.attributes.exists (string, string)
@@ -984,9 +1059,11 @@ true if the attribute exists in the file, false otherwise.
 opml.attributes.exists ("tmp.opml", "major")
 
 > *true*
+
 opml.attributes.exists ("tmp.opml", "minor")
 
 > *false*
+
 ## opml.attributes.getAll
 #### Syntax
 opml.attributes.getAll (string)
@@ -1001,6 +1078,7 @@ All the elements of the &lt;head> section of the OPML file for the outline.
 opml.attributes.getAll ("scratchpad.opml")
 
 > *{*
+
 ## opml.attributes.getOne
 #### Syntax
 opml.attributes.getOne (string, string)
@@ -1019,9 +1097,11 @@ If the attribute doesn't exist, the value returned is the JavaScript value undef
 opml.attributes.getOne ("tmp.opml", "name")
 
 > *Bjorn Barker*
+
 opml.attributes.getOne ("tmp.opml", "hometown")
 
 > *undefined*
+
 ## opml.attributes.makeEmpty
 #### Syntax
 opml.attributes.makeEmpty (string)
@@ -1039,6 +1119,7 @@ The attributes of the file after the opml.attributes.deleteOne call.
 opml.attributes.makeEmpty ("tmp.opml")
 
 > *{ }*
+
 ## opml.attributes.setAll
 #### Syntax
 opml.attributes.setAll (string, object)
@@ -1060,6 +1141,7 @@ The attributes of the file after the opml.attributes.setAll call.
 opml.attributes.setAll ("tmp.opml", {name: "Bjorn Barker", age: 32})
 
 > *true*
+
 ## opml.attributes.setOne
 #### Syntax
 opml.attributes.setOne (string, string, value)
@@ -1083,6 +1165,7 @@ The attributes of the file after the opml.attributes.setOne call.
 opml.attributes.setOne ("tmp.opml", "height", 5.5 * 12)
 
 > *{*
+
 ## opml.getCurrentObject
 #### Syntax
 opml.getCurrentObject ()
@@ -1100,6 +1183,7 @@ It does what opml.getCurrentOpml does, except instead of returning OPML text, it
 opml.getCurrentObject ()
 
 > *{*
+
 ## opml.getCurrentOpml
 #### Syntax
 opml.getCurrentOpml ()
@@ -1114,7 +1198,9 @@ The text returned is exactly what would be saved as OPML for the current outline
 opml.getCurrentOpml ()
 
 > *&lt;?xml version="1.0"?>*
+
 > *&lt;opml version="2.0">*
+
 ## opml.getMarkdown
 #### Syntax
 opml.getMarkdown (opmltext)
@@ -1138,22 +1224,33 @@ We respect the <i>flSinglespaceMarkdown</i> attribute. When it's present and tru
 Here's the example outline:
 
 > *Foods I like*
+
 Bagels has a flSinglespaceMarkdown attribute with the value true.
 
 We ran this script.
 
 > *console.log (opml.getMarkdown (op.getCursorOpml (false)))*
+
 Which generated this text.
 
 > *Cheese*
+
 > *<br>*
+
 > *Bagels*
+
 > *<br>*
+
 > *Everything*
+
 > *Sesame*
+
 > *Plain*
+
 > *<br>*
+
 > *Sauces*
+
 ## opml.getHeaders
 #### Syntax
 opml.getHeaders ()
@@ -1168,6 +1265,7 @@ All the elements of the &lt;head> section of the OPML file for the current outli
 opml.getHeaders ()
 
 > *{     "title": "verbDocs",     "dateCreated": "Mon, 22 Mar 2021 16:14:46 GMT",     "dateModified": "Wed, 07 Apr 2021 15:45:15 GMT",     "expansionState": "5,6,7,9,11,13,17",     "lastCursor": "13",     "ownerTwitterScreenName": "davewiner",     "ownerName": "Dave Winer",     "ownerId": "http://twitter.com/davewiner",     "urlUpdateSocket": "ws://test.littleoutliner.com:1230/",     "longTitle": "",     "description": "" }*
+
 ## opml.setHeaders
 #### Syntax
 opml.setHeaders (object)
@@ -1206,6 +1304,7 @@ The base64 encoding of the string.
 base64.encode ("Hello Dolly")
 
 > *SGVsbG8gRG9sbHk=*
+
 ## base64.decode
 #### Syntax
 base64.decode (string)
@@ -1220,9 +1319,11 @@ The string that's decoded from the base64 encoded text.
 base64.decode ("SGVsbG8gRG9sbHk=")
 
 > *Hello Dolly*
+
 base64.decode (base64.encode ("It's a wonderful day in the neighborhood."))
 
 > *It's a wonderful day in the neighborhood.*
+
 
 # rss verbs
 ## rss.readFeed
@@ -1243,6 +1344,7 @@ rss.readFeed ("http://scripting.com/rss.xml")
 
 > *{*
 
+
 # speaker verbs
 ## speaker.beep
 #### Syntax
@@ -1262,6 +1364,7 @@ speaker.beep () === undefined
 
 > *true*
 
+
 # string verbs
 ## string.addCommas
 #### Syntax
@@ -1277,12 +1380,15 @@ A string.
 string.addCommas (11709445200)
 
 > *11,709,445,200*
+
 string.addCommas (12)
 
 > *12*
+
 string.addCommas ("abcdefghijklmnopqrstuvwxyz")
 
 > *abcdefghijklmnopqrstuvwxyz*
+
 ## string.addPeriodAtEnd
 #### Syntax
 string.addPeriodAtEnd (string)
@@ -1306,9 +1412,11 @@ Used in Radio3 to pre-process a linkblog post.
 string.addPeriodAtEnd ("I like ice cream")
 
 > *I like ice cream.*
+
 string.addPeriodAtEnd ("What is your favorite flavor?")
 
 > *What is your favorite flavor?*
+
 ## string.beginsWith
 #### Syntax
 string.beginsWith (s, possibleBeginning, flUnicase)
@@ -1325,6 +1433,7 @@ true if the string begins with the other, false if it doesn't.
 string.beginsWith ("hooray for hollywood", "hoo")
 
 > *true*
+
 ## string.bumpUrlString
 #### Syntax
 string.bumpUrlString (string)
@@ -1344,15 +1453,19 @@ It can be used in implementing a URL shortener, to generate a sequence of string
 string.bumpUrlString (undefined)
 
 > *1*
+
 string.bumpUrlString ("z")
 
 > *00*
+
 string.bumpUrlString ("zz")
 
 > *000*
+
 string.bumpUrlString ("ZZ") //not case-sensitive
 
 > *000*
+
 ## string.contains
 #### Syntax
 string.contains (s, whatItMightContain, flUnicase) returns boolean
@@ -1382,12 +1495,15 @@ The number of fields in the string, with fields determined by the character.
 string.countFields ("scripting.com/2003/08/12.html", "/")
 
 > *4*
+
 string.countFields ("Do you know the way to San Jose?", " ")
 
 > *8*
+
 string.countFields ("Come hear Uncle John's Band.", "/")
 
 > *1*
+
 #### See also
 string.nthField
 
@@ -1410,6 +1526,7 @@ If the number is out of range it returns the empty string.
 string.dayOfWeekToString (3)
 
 > *Wednesday*
+
 #### See also
 string.monthToString
 
@@ -1432,9 +1549,11 @@ At some point it may make sense to look for other strings.
 string.decodeXml ("&amp;lt;script&amp;gt;")
 
 > *&lt;script>*
+
 string.decodeXml ("Lennon &amp;amp; McCartney")
 
 > *Lennon & McCartney*
+
 ## string.delete
 #### Syntax
 string.delete (string, index, count)
@@ -1458,12 +1577,15 @@ If you try to delete starting past the end of the string, you end up deleting no
 string.delete ("123456789", 3, 1)
 
 > *12456789*
+
 string.delete ("123456789", 2, 1000)
 
 > *1*
+
 string.delete ("123456789", 100, 3)
 
 > *123456789*
+
 ## string.encodeHtml
 #### Syntax
 string.encodeHtml (string)
@@ -1483,9 +1605,11 @@ If you try to delete starting past the end of the string, you end up deleting no
 string.encodeHtml ("Still diggin!")
 
 > *Still diggin!*
+
 string.encodeHtml ("I <b>love</b> a parade")
 
 > *I &#60;b&#62;love&#60;/b&#62; a parade*
+
 ## string.endsWith
 #### Syntax
 string.endsWith (string1, string2, boolean)
@@ -1504,12 +1628,15 @@ True if the first string ends with the second.
 string.endsWith ("Hooray for Hollywood", "wood")
 
 > *true*
+
 string.endsWith ("Hooray for Hollywood", "Wood", false)
 
 > *false*
+
 string.endsWith ("Hooray for Hollywood", "wheat")
 
 > *false*
+
 ## string.extensionToMimeType
 #### Syntax
 string.extensionToMimeType (string)
@@ -1531,18 +1658,23 @@ string.extensionToMimeType calls the <a href="https://github.com/scripting/utils
 string.extensionToMimeType ("ideas.html")
 
 > *text/html*
+
 string.extensionToMimeType ("config.json")
 
 > *application/json*
+
 string.extensionToMimeType ("config.js")
 
 > *application/javascript*
+
 string.extensionToMimeType ("profile.png")
 
 > *image/png*
+
 string.extensionToMimeType ("profile.jpg")
 
 > *image/jpeg*
+
 ## string.filledString
 #### Syntax
 string.filledString (character, count)
@@ -1559,12 +1691,15 @@ A string containing a number of copies of the first parameter.
 string.filledString ("p", 10)
 
 > *pppppppppp*
+
 string.filledString ("123 ", 10)
 
 > *123 123 123 123 123 123 123 123 123 123 *
+
 string.filledString ("\t", 3)
 
 > *   *
+
 ## string.formatDate
 #### Syntax
 string.formatDate (date, format, timezone)
@@ -1592,15 +1727,19 @@ If the timezone is not specified, we use the timezone that the machine that ran 
 string.formatDate (clock.now (), "%B")
 
 > *March*
+
 string.formatDate ()
 
 > *Sun Mar 14 2021 11:24:53 GMT-0400 (Eastern Daylight Time)*
+
 string.formatDate (clock.now (), "%l:%M %p")
 
 > *11:21 AM*
+
 string.formatDate (undefined, "%A, %B %e, %Y at %l:%M %p") + "."
 
 > *Sunday, March 14, 2021 at 11:27 AM.*
+
 ## string.getRandomPassword
 #### Syntax
 string.getRandomPassword (count)
@@ -1615,9 +1754,11 @@ A string of random characters.
 string.getRandomPassword (20)
 
 > *26mxjiulbv2br8jaeutj*
+
 string.getRandomPassword (20)
 
 > *pv8snpjvmbl4np4kh4mt*
+
 ## string.hashMD5
 #### Syntax
 string.hashMD5 (string)
@@ -1635,9 +1776,11 @@ You can tell with a lot of confidence that the sender who uses this function has
 string.hashMD5 ("Spring forward, fall back.")
 
 > *26d37b732af2a3caf47a0b2c9789a0ce*
+
 string.hashMD5 ("It's even worse than it appears")
 
 > *d7adfe509535ad6de49a8baf0fbf7a3d*
+
 ## string.innerCaseName
 #### Syntax
 string.innerCaseName (string)
@@ -1655,6 +1798,7 @@ It's useful for creating a file name or URL from a title.
 string.innerCaseName ("The story of my life") + ".mp3"
 
 > *theStoryOfMyLife.mp3*
+
 ## string.insert
 #### Syntax
 string.insert (source, dest, ix)
@@ -1672,9 +1816,11 @@ Behavior is unpredictable if ix is less than zero.
 string.insert ("Bull ", "My name is Mancuso.", 11)
 
 > *My name is Bull Mancuso.*
+
 string.insert ("Hello ", " from Hollywood", 1)
 
 > * Hello from Hollywood*
+
 ## string.isAlpha
 #### Syntax
 string.isAlpha (ch)
@@ -1694,15 +1840,19 @@ If the string is longer than one character, it returns true if the first charact
 string.isAlpha ("x")
 
 > *true*
+
 string.isAlpha ("1")
 
 > *false*
+
 string.isAlpha ("#")
 
 > *false*
+
 string.isAlpha ("123abc")
 
 > *false*
+
 #### See also
 string.isNumeric
 
@@ -1729,15 +1879,19 @@ If the string is longer than one character, it returns true if the first charact
 string.isNumeric ("4")
 
 > *true*
+
 string.isNumeric ("g")
 
 > *false*
+
 string.isNumeric ("#")
 
 > *false*
+
 string.isNumeric ("123abc")
 
 > *true*
+
 #### See also
 string.isAlpha
 
@@ -1769,12 +1923,15 @@ Admittedly, its definition is weird, it would probably be better to enumerate th
 string.isPunctuation (" ")
 
 > *false*
+
 string.isPunctuation (".")
 
 > *true*
+
 string.isPunctuation (",")
 
 > *true*
+
 #### See also
 string.isAlpha
 
@@ -1805,12 +1962,15 @@ If the string is longer than one character, it returns true if the first charact
 string.isWhitespace (" ")
 
 > *true*
+
 string.isWhitespace ("\n")
 
 > *true*
+
 string.isWhitespace ("*")
 
 > *false*
+
 #### See also
 string.isAlpha
 
@@ -1841,12 +2001,15 @@ If ch contains more than one character, the results are not easily specified.
 string.lastField ("scripting.com/2003/08/12.html", "/")
 
 > *12.html*
+
 string.lastField ("oh the buzzing of the bees", " ")
 
 > *bees*
+
 string.lastField ("oh the buzzing of the bees", "123")
 
 > *oh the buzzing of the bees*
+
 #### See also
 string.nthField
 
@@ -1886,9 +2049,11 @@ A string that is not longer than the indicated length.
 string.maxStringLength ("I have a long story I would like to tell you. It begins like this.", 35)
 
 > *I have a long story I would like ...*
+
 string.maxStringLength ("You know nothing Jon Snow." , 80)
 
 > *You know nothing Jon Snow.*
+
 ## string.markdownProcess
 #### Syntax
 string.markdownProcess (string)
@@ -1906,12 +2071,15 @@ We use <a href="https://github.com/StackExchange/pagedown">Pagedown</a>, the Mar
 string.markdownProcess ("It's **even** worse than it appears.")
 
 > *<p>It's <strong>even</strong> worse than it appears.</p>*
+
 string.markdownProcess ("I read [Scripting News](http://scripting.com/).")
 
 > *<p>I read <a href="http://scripting.com/">Scripting News</a>.</p>*
+
 string.markdownProcess ("* one\n* two\n* three\n")
 
 > *<ul>*
+
 ## string.mid
 #### Syntax
 string.mid (string, ix, ct)
@@ -1935,9 +2103,11 @@ If you try to copy starting past the end of the string, you end up copying nothi
 string.mid ("123456789", 3, 1)
 
 > *3*
+
 string.mid ("123456789", 2, 1000)
 
 > *23456789*
+
 #### See also
 string.delete
 
@@ -1957,9 +2127,11 @@ A string like "January", "February", "March", "April", "May", "June", "July", "A
 string.monthToString (0)
 
 > *January*
+
 string.monthToString (100)
 
 > *undefined*
+
 #### See also
 string.dayOfWeekToString
 
@@ -1985,6 +2157,7 @@ A string, the result of the replacements.
 string.multipleReplaceAll ("This house costs $293,000.", {"house": "apartment", "293,000": "534,287"}) 
 
 > *This apartment costs $534,287.*
+
 #### See also
 string.replaceAll
 
@@ -2004,6 +2177,7 @@ A string with the contents of the specified field, with fields determined by the
 string.nthField ("scripting.com/2003/08/12.html", "/", 3)
 
 > *08*
+
 #### See also
 string.lastField
 
@@ -2028,9 +2202,11 @@ It's useful if you want all strings produced by the code to be the same length, 
 string.padWithZeros (1200, 5)
 
 > *01200*
+
 string.padWithZeros (1, 4) + ".html"
 
 > *0001.html*
+
 #### See also
 string.delete
 
@@ -2050,6 +2226,7 @@ If the string has an extension, like .txt or .png, we return the string without 
 string.popExtension ("myAffadavit.txt")
 
 > *myAffadavit*
+
 #### See also
 string.popLastField
 
@@ -2072,9 +2249,11 @@ Useful if you want to replace the suffix of a file name with another suffix.
 string.popLastField ("myDiary.html", ".") + ".json"
 
 > *myDiary.json*
+
 string.popLastField ("scripting.com/2021/03/13", "/")
 
 > *scripting.com/2021/03*
+
 #### See also
 string.nthField
 
@@ -2096,6 +2275,7 @@ A string without instances of the character at the end of the string
 string.popTrailing ("get rid of the dots please.........", ".")
 
 > *get rid of the dots please*
+
 #### See also
 string.popLastField
 
@@ -2118,15 +2298,19 @@ This is mostly for fun. Truthfully it's <i>only</i> for fun. Heh. ;-)
 string.randomSnarkySlogan ()
 
 > *People return to places that send them away.*
+
 string.randomSnarkySlogan ()
 
 > *This aggression will not stand.*
+
 string.randomSnarkySlogan ()
 
 > *All of this has happened before and all of this will happen again.*
+
 string.randomSnarkySlogan ()
 
 > *It's even worse than it appears.*
+
 ## string.replaceAll
 #### Syntax
 string.replaceAll (s, searchFor, replaceWith)
@@ -2141,6 +2325,7 @@ The result of replacing all occurrences of the second string with the third, in 
 string.replaceAll ("raise your hand if you're happy", " ", "---")
 
 > *raise---your---hand---if---you're---happy*
+
 #### See also
 string.multipleReplaceAll
 
@@ -2158,6 +2343,7 @@ The string without the HTML markup.
 string.stripMarkup ("Sometimes <b>you</b> don't <i>want</i> the <u>markup</u>.")
 
 > *Sometimes you don't want the markup.*
+
 ## string.trimLeading
 #### Syntax
 string.trimLeading (string, ch)
@@ -2172,6 +2358,7 @@ The string without instances of the character at the beginning of the string.
 string.trimLeading ("$$$$$We don't need the dollar signs at the beginning of this string.", "$")
 
 > *We don't need the dollar signs at the beginning of this string.*
+
 #### See also
 string.trimTrailing
 
@@ -2189,6 +2376,7 @@ The string without instances of the character at the end of the string.
 string.trimTrailing ("We don't need the question marks at the end of this string.?????", "?")
 
 > *We don't need the question marks at the end of this string.*
+
 #### See also
 string.trimLeading
 
@@ -2209,9 +2397,11 @@ Use this verb to allow comparisons between names or identifiers that might have 
 string.trimWhitespace ("  All the whitespace is a problem.    ")
 
 > *All the whitespace is a problem.*
+
 string.trimWhitespace ("   Alice   ") == "Alice"
 
 > *true*
+
 #### See also
 string.trimLeading
 
@@ -2249,6 +2439,7 @@ A web address or undefined.
 dialog.alert (tab.getPublicUrl ())
 
 > *undefined*
+
 ## tab.openFile
 #### Syntax
 tab.openFile (string, string)
@@ -2271,9 +2462,11 @@ The file does not exist.
 tab.openFile ("hello3.opml") 
 
 > *true*
+
 tab.openFile ("hello3.opml", "My Favorite File") 
 
 > *true*
+
 ## tab.openInstantOutline
 #### Syntax
 tab.openInstantOutline (string, string)
@@ -2297,6 +2490,7 @@ tab.openInstantOutline ("http://instantoutliner.com/o0", "The states outline")
 
 > *true*
 
+
 # webBrowser verbs
 ## webBrowser.openUrl
 #### Syntax
@@ -2315,3 +2509,4 @@ true.
 webBrowser.openUrl ("http://scripting.com/") 
 
 > *true*
+
