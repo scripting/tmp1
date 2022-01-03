@@ -19,9 +19,7 @@ A message saying it worked, if it did.
 Simply updating the outline is enough to get it to be reindexed, so in most cases you will not have to do the ping from a script.
 
 #### Example
-daytona.ping ("http://drummer.scripting.com/cluelessnewbie/blog.opml")
-
-- *all is good*
+undefined
 
 ## daytona.query
 #### Syntax
@@ -36,9 +34,7 @@ The second param is the collection you want to search in. It can be scriptingnew
 The result of the query in a JavaScript object.
 
 #### Example
-daytona.query ("BBC")
-
-- *[*
+undefined
 
 ## daytona.resetMyIndex
 #### Syntax
@@ -57,9 +53,7 @@ Deletes all index entries for the indicated collection. You're basically saying 
 daytona.removeOutlineRefs is more selective, it only removes references to one outline, not all of them. 
 
 #### Example
-daytona.resetMyIndex ()
-
-- *true*
+undefined
 
 ## daytona.removeOutlineRefs
 #### Syntax
@@ -77,7 +71,5 @@ Deletes all index entries for the indicated outline, so you can start over with 
 true
 
 #### Example
-daytona.removeOutlineRefs ("http://drummer.scripting.com/cluelessnewbie/blog.opml")
-
-- *true*
+undefined
 
