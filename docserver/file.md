@@ -17,9 +17,9 @@ True if it exists, false otherwise
 If you try to read a file that doesn't exist, for example, your script will fail. If your application can work even if a file doesn't exist, then you should use this verb to see if it exists. 
 
 #### Examples
-file.exists ("prefs.json")
+undefined
 
-file.exists ("meaningOfLife.js")
+undefined
 
 ## file.writeWholeFile
 #### Syntax
@@ -35,13 +35,9 @@ true.
 Files are, by default, private. If you want to create a public file, first create the private file then call file.makeFilePublic.
 
 #### Examples
-file.writeWholeFile ("hello.txt", "Hello World")
+undefined
 
-- *true*
-
-file.writeWholeFile ("code/alert.js", "dialog.alert ('Yo')") 
-
-- *true*
+undefined
 
 ## file.readWholeFile
 #### Syntax
@@ -54,9 +50,7 @@ Reads the file at the indicated path and returns its contents as a string.
 The contents of the file, as a string.
 
 #### Example
-file.readWholeFile ("hello.txt") 
-
-- *Hello World*
+undefined
 
 ## file.delete
 #### Syntax
@@ -69,17 +63,11 @@ Tries to delete both a private file or a public one at the indicated path. It's 
 undefined
 
 #### Example
-file.writeWholeFile ("deleteme.txt", "It's even worse than it appears.")
+undefined
 
-- *true*
+undefined
 
-file.readWholeFile ("deleteme.txt")
-
-- *It's even worse than it appears.*
-
-file.delete ("deleteme.txt")
-
-- *undefined*
+undefined
 
 ## file.getFileInfo
 #### Syntax
@@ -94,13 +82,9 @@ Information about the file, including: its size in bytes, when it was created, l
 If the file is public, urlPublic, the address of the file, is included. 
 
 #### Example
-file.getFileInfo ("states.opml") 
+undefined
 
-- *{*
-
-file.getFileInfo ("scratchpad.opml")
-
-- *{*
+undefined
 
 ## file.makeFilePublic
 #### Syntax
@@ -113,13 +97,9 @@ Makes the file public if it is private.
 The public URL of the file. 
 
 #### Example
-file.makeFilePublic ("hello.txt")
+undefined
 
-- *http://drummer.scripting.com/davewiner/hello.txt*
-
-http.readUrl ("http://drummer.scripting.com/davewiner/hello.txt")
-
-- *Hello World*
+undefined
 
 ## file.getFileHierarchy
 #### Syntax
@@ -143,11 +123,7 @@ This feature is based on the <a href="https://github.com/scripting/folderToJson"
 And the Outline file hierarchy command in the Tools menu is built on file.getFileHierarchy. 
 
 #### Example
-file.getFileHierarchy ()
+undefined
 
-- *{*
-
-console.log (jsonStringify (file.getFileHierarchy ()))
-
-- *undefined*
+undefined
 
