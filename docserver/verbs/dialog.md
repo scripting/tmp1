@@ -1,5 +1,4 @@
 
----
 # dialog verbs
 ## dialog.alert
 #### Syntax
@@ -16,6 +15,7 @@ The value undefined.
 
 - *undefined*
 
+<br/><br/>
 ## dialog.ask
 #### Syntax
 dialog.ask (prompt, default, placeholder)
@@ -44,6 +44,7 @@ The string the user entered if they pressed OK, or the value undefined if Cancel
 
 - *orange*
 
+<br/><br/>
 ## dialog.confirm
 #### Syntax
 dialog.confirm (string)
@@ -59,6 +60,7 @@ A boolean, true if the user clicked OK, false if Cancel.
 
 - *true*
 
+<br/><br/>
 ## dialog.about
 #### Syntax
 dialog.about (string1, string2)
@@ -77,3 +79,4 @@ undefined.
 
 - *undefined*
 
+<br/><br/>
