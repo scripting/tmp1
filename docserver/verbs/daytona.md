@@ -1,5 +1,4 @@
 
----
 # daytona verbs
 ## daytona.ping
 #### Syntax
@@ -24,6 +23,7 @@ Simply updating the outline is enough to get it to be reindexed, so in most case
 
 - *all is good*
 
+<br/><br/>
 ## daytona.query
 #### Syntax
 daytona.query (query, collection)
@@ -41,6 +41,7 @@ The result of the query in a JavaScript object.
 
 - *[*
 
+<br/><br/>
 ## daytona.resetMyIndex
 #### Syntax
 daytona.resetMyIndex (collection)
@@ -62,6 +63,7 @@ daytona.removeOutlineRefs is more selective, it only removes references to one o
 
 - *true*
 
+<br/><br/>
 ## daytona.removeOutlineRefs
 #### Syntax
 daytona.removeOutlineRefs (urlOutline, collection)
@@ -82,3 +84,4 @@ true
 
 - *true*
 
+<br/><br/>
