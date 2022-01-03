@@ -1,5 +1,4 @@
 
----
 # github verbs
 ## github.connectViaOauth
 #### Syntax
@@ -30,6 +29,7 @@ true
 
 - *1234567890123456789012345678901234567890*
 
+<br/><br/>
 ## github.disconnect
 #### Syntax
 github.disconnect ()
@@ -50,6 +50,7 @@ true
 
 - *true*
 
+<br/><br/>
 ## github.download
 #### Syntax
 github.download (username, repository, path)
@@ -71,6 +72,7 @@ A JavaScript object with information about the file, including its contents.
 
 - *319*
 
+<br/><br/>
 ## github.getAccessToken
 #### Syntax
 github.getAccessToken ()
@@ -86,6 +88,7 @@ The access token if you're logged in, undefined if not.
 
 - *1234567890123456789012345678901234567890*
 
+<br/><br/>
 ## github.getDirectory
 #### Syntax
 github.getDirectory (username, repository, path)
@@ -107,6 +110,7 @@ A JavaScript object containing information about all the files in the directory.
 
 - *[*
 
+<br/><br/>
 ## github.getUserInfo
 #### Syntax
 github.getUserInfo (string)
@@ -126,6 +130,7 @@ If the username is not provided, github.getUserInfo returns a JavaScript object 
 
 - *{*
 
+<br/><br/>
 ## github.upload
 #### Syntax
 github.upload (username, repository, path, data, message)
@@ -147,3 +152,4 @@ All the information GitHub returns about the upload.
 
 - *{*
 
+<br/><br/>
