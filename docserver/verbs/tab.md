@@ -1,6 +1,5 @@
 
 # tab verbs
-## 
 ## tab.getPublicUrl
 #### Syntax
 tab.getPublicUrl () returns string
@@ -18,7 +17,7 @@ A web address or undefined.
 
 - *undefined*
 
-## 
+<br/><br/>
 ## tab.openFile
 #### Syntax
 tab.openFile (string, string)
@@ -46,7 +45,7 @@ The file does not exist.
 
 - *true*
 
-## 
+<br/><br/>
 ## tab.openInstantOutline
 #### Syntax
 tab.openInstantOutline (string, string)
@@ -70,3 +69,4 @@ It has no way to report an error, if it couldn't open the outline, it still retu
 
 - *true*
 
+<br/><br/>
