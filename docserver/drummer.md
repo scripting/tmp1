@@ -20,9 +20,7 @@ fargo.version is implemented here, so you can find out that this isn't Fargo any
 When you've been doing this for a long time, the value of these kinds of hooks become apparent. 
 
 #### Examples
-drummer.productname ()
-
-- *"drummer"*
+undefined
 
 ## drummer.productnameForDisplay
 #### Syntax
@@ -35,9 +33,7 @@ None
 The name of the Drummer app in a form suitable for displaying in a dialog, or other kind of message to the user.
 
 #### Examples
-drummer.productnameForDisplay ()
-
-- *"Drummer"*
+undefined
 
 ## drummer.runScript
 #### Syntax
@@ -55,13 +51,9 @@ The script text runs but I was hoping the value would be returned, but it's not.
 In the second example below, nothing happens. 
 
 #### Examples
-drummer.runScript ("dialog.alert (\"Hello World\")")
+undefined
 
-- *undefined*
-
-drummer.runScript ("100 * 12")
-
-- *undefined*
+undefined
 
 ## drummer.subscribeToOutline
 #### Syntax
@@ -82,9 +74,7 @@ If the outline has a &lt;urlUpdateSocket> head element, Drummer will request upd
 See the <a href="https://github.com/scripting/instantOutlines">instantOutlines project</a> for examples and code for this protocol. 
 
 #### Examples
-drummer.subscribeToOutline ("http://scripting.com/states.opml")
-
-- *true*
+undefined
 
 ## drummer.version
 #### Syntax
@@ -97,9 +87,7 @@ None
 The current version of the Drummer software.
 
 #### Examples
-drummer.version ()
-
-- *2.0.6*
+undefined
 
 ## drummer.useStylesheet
 #### Syntax
@@ -118,7 +106,5 @@ true.
 We're using this <a href="https://stackoverflow.com/questions/14028113/load-different-css-stylesheet-with-javascript">Stack Overflow piece</a> as guidance. 
 
 #### Example
-drummer.useStylesheet ("http://scripting.com/misc/darkmodestyles.css")
-
-- *true*
+undefined
 
