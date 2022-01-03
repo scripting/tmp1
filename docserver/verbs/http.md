@@ -1,5 +1,4 @@
 
----
 # http verbs
 ## http.client
 #### Syntax
@@ -40,6 +39,7 @@ It's named after the Frontier verb <a href="http://docserver.userland.com/tcp/ht
 
 - *Fri Nov 05 2021 13:05:15 GMT-0400 (Eastern Daylight Time)*
 
+<br/><br/>
 ## http.readUrl
 #### Syntax
 http.readUrl (string, boolean)
@@ -70,6 +70,7 @@ If you can make the request without using the proxy server it will be faster, an
 
 - *Mon Aug 09 2021 16:35:28 GMT-0400 (Eastern Daylight Time)*
 
+<br/><br/>
 ## http.derefUrl
 #### Syntax
 http.derefUrl (string)
@@ -92,3 +93,4 @@ If the address is not a shortened url, it returns the address itself. If it is, 
 
 - *http://scripting.com/*
 
+<br/><br/>
