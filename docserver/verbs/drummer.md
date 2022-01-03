@@ -24,7 +24,6 @@ When you've been doing this for a long time, the value of these kinds of hooks b
 
 - *"drummer"*
 
-<br/><br/>
 ## drummer.productnameForDisplay
 #### Syntax
 drummer.productnameForDisplay ()
@@ -40,7 +39,6 @@ The name of the Drummer app in a form suitable for displaying in a dialog, or ot
 
 - *"Drummer"*
 
-<br/><br/>
 ## drummer.runScript
 #### Syntax
 drummer.runScript (string)
@@ -65,7 +63,6 @@ In the second example below, nothing happens.
 
 - *undefined*
 
-<br/><br/>
 ## drummer.subscribeToOutline
 #### Syntax
 drummer.subscribeToOutline (string)
@@ -89,7 +86,6 @@ See the <a href="https://github.com/scripting/instantOutlines">instantOutlines p
 
 - *true*
 
-<br/><br/>
 ## drummer.version
 #### Syntax
 drummer.version ()
@@ -105,7 +101,6 @@ The current version of the Drummer software.
 
 - *2.0.6*
 
-<br/><br/>
 ## drummer.useStylesheet
 #### Syntax
 drummer.useStylesheet (string)
@@ -127,4 +122,3 @@ We're using this <a href="https://stackoverflow.com/questions/14028113/load-diff
 
 - *true*
 
-<br/><br/>
