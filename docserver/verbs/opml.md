@@ -1,5 +1,4 @@
 
----
 # opml verbs
 ## opml.parse
 #### Syntax
@@ -19,6 +18,7 @@ A JavaScript object representing the outline.
 
 - *{*
 
+<br/><br/>
 ## opml.stringify
 #### Syntax
 opml.stringify (object)
@@ -36,6 +36,7 @@ The OPML text for the object.
 
 - *&lt;opml version="2.0">*
 
+<br/><br/>
 ## opml.attributes.addGroup
 #### Syntax
 opml.attributes.addGroup (string, object)
@@ -58,6 +59,7 @@ The attributes of the file after the opml.attributes.setAll call.
 
 - *{*
 
+<br/><br/>
 ## opml.attributes.deleteOne
 #### Syntax
 opml.attributes.deleteOne (string, string)
@@ -80,6 +82,7 @@ The attributes of the file after the opml.attributes.deleteOne call.
 
 - *{*
 
+<br/><br/>
 ## opml.attributes.exists
 #### Syntax
 opml.attributes.exists (string, string)
@@ -101,6 +104,7 @@ true if the attribute exists in the file, false otherwise.
 
 - *false*
 
+<br/><br/>
 ## opml.attributes.getAll
 #### Syntax
 opml.attributes.getAll (string)
@@ -116,6 +120,7 @@ All the elements of the &lt;head> section of the OPML file for the outline.
 
 - *{*
 
+<br/><br/>
 ## opml.attributes.getOne
 #### Syntax
 opml.attributes.getOne (string, string)
@@ -139,6 +144,7 @@ If the attribute doesn't exist, the value returned is the JavaScript value undef
 
 - *undefined*
 
+<br/><br/>
 ## opml.attributes.makeEmpty
 #### Syntax
 opml.attributes.makeEmpty (string)
@@ -157,6 +163,7 @@ The attributes of the file after the opml.attributes.deleteOne call.
 
 - *{ }*
 
+<br/><br/>
 ## opml.attributes.setAll
 #### Syntax
 opml.attributes.setAll (string, object)
@@ -179,6 +186,7 @@ The attributes of the file after the opml.attributes.setAll call.
 
 - *true*
 
+<br/><br/>
 ## opml.attributes.setOne
 #### Syntax
 opml.attributes.setOne (string, string, value)
@@ -203,6 +211,7 @@ The attributes of the file after the opml.attributes.setOne call.
 
 - *{*
 
+<br/><br/>
 ## opml.getCurrentObject
 #### Syntax
 opml.getCurrentObject ()
@@ -221,6 +230,7 @@ It does what opml.getCurrentOpml does, except instead of returning OPML text, it
 
 - *{*
 
+<br/><br/>
 ## opml.getCurrentOpml
 #### Syntax
 opml.getCurrentOpml ()
@@ -238,6 +248,7 @@ The text returned is exactly what would be saved as OPML for the current outline
 
 - *&lt;opml version="2.0">*
 
+<br/><br/>
 ## opml.getMarkdown
 #### Syntax
 opml.getMarkdown (opmltext)
@@ -288,6 +299,7 @@ We respect the <i>flSinglespaceMarkdown</i> attribute. When it's present and tru
 
 - *Sauces*
 
+<br/><br/>
 ## opml.getHeaders
 #### Syntax
 opml.getHeaders ()
@@ -303,6 +315,7 @@ All the elements of the &lt;head> section of the OPML file for the current outli
 
 - *{     "title": "verbDocs",     "dateCreated": "Mon, 22 Mar 2021 16:14:46 GMT",     "dateModified": "Wed, 07 Apr 2021 15:45:15 GMT",     "expansionState": "5,6,7,9,11,13,17",     "lastCursor": "13",     "ownerTwitterScreenName": "davewiner",     "ownerName": "Dave Winer",     "ownerId": "http://twitter.com/davewiner",     "urlUpdateSocket": "ws://test.littleoutliner.com:1230/",     "longTitle": "",     "description": "" }*
 
+<br/><br/>
 ## opml.setHeaders
 #### Syntax
 opml.setHeaders (object)
@@ -325,3 +338,4 @@ There is currently no way, from a script, to delete a head element.
 
 `opml.setHeaders (headers);`
 
+<br/><br/>
