@@ -1,5 +1,4 @@
 
----
 # file verbs
 ## file.exists
 #### Syntax
@@ -22,6 +21,7 @@ If you try to read a file that doesn't exist, for example, your script will fail
 
 `file.exists ("meaningOfLife.js")`
 
+<br/><br/>
 ## file.writeWholeFile
 #### Syntax
 file.writeWholeFile (path, text)
@@ -44,6 +44,7 @@ Files are, by default, private. If you want to create a public file, first creat
 
 - *true*
 
+<br/><br/>
 ## file.readWholeFile
 #### Syntax
 file.readWholeFile (path)
@@ -59,6 +60,7 @@ The contents of the file, as a string.
 
 - *Hello World*
 
+<br/><br/>
 ## file.delete
 #### Syntax
 file.delete (path)
@@ -82,6 +84,7 @@ undefined
 
 - *undefined*
 
+<br/><br/>
 ## file.getFileInfo
 #### Syntax
 file.getFileInfo (path)
@@ -103,6 +106,7 @@ If the file is public, urlPublic, the address of the file, is included.
 
 - *{*
 
+<br/><br/>
 ## file.makeFilePublic
 #### Syntax
 file.makeFilePublic (path)
@@ -122,6 +126,7 @@ The public URL of the file.
 
 - *Hello World*
 
+<br/><br/>
 ## file.getFileHierarchy
 #### Syntax
 file.getFileHierarchy ()
@@ -152,3 +157,4 @@ And the Outline file hierarchy command in the Tools menu is built on file.getFil
 
 - *undefined*
 
+<br/><br/>
