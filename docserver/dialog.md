@@ -11,9 +11,7 @@ The string is displayed in a dialog with a single button, OK.
 The value undefined.
 
 #### Example
-dialog.alert ("It's sunny outside.")
-
-- *undefined*
+undefined
 
 ## dialog.ask
 #### Syntax
@@ -39,9 +37,7 @@ If the user clicks Cancel, dialog.ask returns the value undefined. If the user c
 The string the user entered if they pressed OK, or the value undefined if Cancel.
 
 #### Example
-dialog.ask ("Favorite color?", "blue", "A color like blue or red goes here.")
-
-- *orange*
+undefined
 
 ## dialog.confirm
 #### Syntax
@@ -54,9 +50,7 @@ The string is displayed in a dialog with two buttons, Cancel and OK.
 A boolean, true if the user clicked OK, false if Cancel.
 
 #### Example
-dialog.confirm ("Really erase all files on your computer?")
-
-- *true*
+undefined
 
 ## dialog.about
 #### Syntax
@@ -72,7 +66,5 @@ Displays the outline in a dialog, with the title at the top.
 undefined.
 
 #### Example
-dialog.about (http.readUrl ("http://scripting.com/states.opml"), "States outline")
-
-- *undefined*
+undefined
 
