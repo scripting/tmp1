@@ -1,5 +1,4 @@
 
----
 # clock verbs
 ## clock.now
 #### Syntax
@@ -13,6 +12,7 @@ A JavaScript date object with the current date and time.
 
 - *Tue Mar 16 2021 14:31:39 GMT-0400 (Eastern Daylight Time)*
 
+<br/><br/>
 ## clock.waitSeconds
 #### Syntax
 clock.waitSeconds (number)
@@ -39,3 +39,4 @@ The waiting is done via a JavaScript <a href="https://www.w3schools.com/jsref/me
 
 - *2.005*
 
+<br/><br/>
