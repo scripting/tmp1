@@ -19,9 +19,7 @@ If x is a date returned by this routine, you can use the JavaScript date functio
 This is a core routine for building blogs that might be published by software running in a time zone different from the author of the blog. 
 
 #### Examples
-date.convertToTimeZone (clock.now (), "+5:30").toLocaleString ()
-
-- *11/15/2021, 8:45:29 PM*
+undefined
 
 ## date.dayGreaterThanOrEqual
 #### Syntax
@@ -37,9 +35,7 @@ true if the first date is on the same day as the second, or if the first date is
 This verb is useful in determining which version of software you're running, if you have the publication date of a new version. Also useful to see if a timer has expired. 
 
 #### Example
-date.dayGreaterThanOrEqual (clock.now (), "November 22, 2018")
-
-- *true*
+undefined
 
 ## date.netStandardString
 #### Syntax
@@ -57,13 +53,9 @@ This is the format that's required for RSS feeds, OPML files and mail protocols.
 It's a human and machine readable way of expressing of dates. 
 
 #### Examples
-date.netStandardString (clock.now ())
+undefined
 
-- *Sun, 14 Mar 2021 16:28:56 GMT*
-
-date.netStandardString ("12/5/97; 9:03:15 PM")
-
-- *Sat, 06 Dec 1997 04:03:15 GMT*
+undefined
 
 ## date.sameDay
 #### Syntax
@@ -76,13 +68,9 @@ Both parameters are JavaScript date objects.
 true if the dates are on the same day, false otherwise.
 
 #### Examples
-date.sameDay ("March 12, 2021", "February 12, 2021")
+undefined
 
-- *false*
-
-date.sameDay ("March 12, 2021", "March 12, 2021")
-
-- *true*
+undefined
 
 ## date.sameMonth
 #### Syntax
@@ -95,13 +83,9 @@ Both parameters are JavaScript date objects.
 true if the dates are in the same month, false otherwise.
 
 #### Examples
-date.sameMonth ("March 12, 2021", "February 12, 2021")
+undefined
 
-- *false*
-
-date.sameMonth ("March 12, 2021", "March 30, 2021")
-
-- *true*
+undefined
 
 ## date.secondsSince
 #### Syntax
@@ -117,9 +101,7 @@ The number of seconds since the date.
 Useful when you want to know how long something took. 
 
 #### Example
-date.secondsSince ("March 14, 2020")
-
-- *31580389.57*
+undefined
 
 ## date.tomorrow
 #### Syntax
@@ -132,9 +114,7 @@ date is a JavaScript date object.
 The result of adding 24 hours from the date.
 
 #### Example
-date.tomorrow (clock.now ())
-
-- *Mon Mar 15 2021 12:21:22 GMT-0400 (Eastern Daylight Time)*
+undefined
 
 ## date.yesterday
 #### Syntax
@@ -147,7 +127,5 @@ date is a JavaScript date object.
 The result of subtracting 24 hours from the date.
 
 #### Example
-date.yesterday (clock.now ())
-
-- *Sat Mar 13 2021 11:21:02 GMT-0500 (Eastern Standard Time)*
+undefined
 
