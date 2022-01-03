@@ -1,5 +1,4 @@
 
----
 # dns verbs
 ## dns.getDomainName
 #### Syntax
@@ -19,6 +18,7 @@ There is no domain associated with the provided dotted id.
 #### Limits
 It only returns one domain name, but there might be more than one domain mapped to a given IP address. 
 
+<br/><br/>
 ## dns.getDottedId
 #### Syntax
 dns.getDottedId (name)
@@ -45,3 +45,4 @@ When there's an error, the error message is undefined.
 
 - *208.113.174.22*
 
+<br/><br/>
