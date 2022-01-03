@@ -1,6 +1,5 @@
 
 # string verbs
-## 
 ## string.addCommas
 #### Syntax
 string.addCommas (number)
@@ -24,7 +23,7 @@ A string.
 
 - *abcdefghijklmnopqrstuvwxyz*
 
-## 
+<br/><br/>
 ## string.addPeriodAtEnd
 #### Syntax
 string.addPeriodAtEnd (string)
@@ -53,7 +52,7 @@ Used in Radio3 to pre-process a linkblog post.
 
 - *What is your favorite flavor?*
 
-## 
+<br/><br/>
 ## string.beginsWith
 #### Syntax
 string.beginsWith (s, possibleBeginning, flUnicase)
@@ -71,7 +70,7 @@ true if the string begins with the other, false if it doesn't.
 
 - *true*
 
-## 
+<br/><br/>
 ## string.bumpUrlString
 #### Syntax
 string.bumpUrlString (string)
@@ -104,7 +103,7 @@ It can be used in implementing a URL shortener, to generate a sequence of string
 
 - *000*
 
-## 
+<br/><br/>
 ## string.contains
 #### Syntax
 string.contains (s, whatItMightContain, flUnicase) returns boolean
@@ -120,7 +119,7 @@ true if the string contains the other, false if it doesn't.
 #### Example
 `dialog.alert (string.contains ("http://november.com", "november")) //displays true`
 
-## 
+<br/><br/>
 ## string.countFields
 #### Syntax
 string.countFields (s, ch)
@@ -149,7 +148,7 @@ string.nthField
 
 string.lastField
 
-## 
+<br/><br/>
 ## string.dayOfWeekToString
 #### Syntax
 string.dayOfWeekToString (number)
@@ -171,7 +170,7 @@ If the number is out of range it returns the empty string.
 #### See also
 string.monthToString
 
-## 
+<br/><br/>
 ## string.decodeXml
 #### Syntax
 string.decodeXml (string)
@@ -196,7 +195,7 @@ At some point it may make sense to look for other strings.
 
 - *Lennon & McCartney*
 
-## 
+<br/><br/>
 ## string.delete
 #### Syntax
 string.delete (string, index, count)
@@ -229,7 +228,7 @@ If you try to delete starting past the end of the string, you end up deleting no
 
 - *123456789*
 
-## 
+<br/><br/>
 ## string.encodeHtml
 #### Syntax
 string.encodeHtml (string)
@@ -254,7 +253,7 @@ If you try to delete starting past the end of the string, you end up deleting no
 
 - *I &#60;b&#62;love&#60;/b&#62; a parade*
 
-## 
+<br/><br/>
 ## string.endsWith
 #### Syntax
 string.endsWith (string1, string2, boolean)
@@ -282,7 +281,7 @@ True if the first string ends with the second.
 
 - *false*
 
-## 
+<br/><br/>
 ## string.extensionToMimeType
 #### Syntax
 string.extensionToMimeType (string)
@@ -321,7 +320,7 @@ string.extensionToMimeType calls the <a href="https://github.com/scripting/utils
 
 - *image/jpeg*
 
-## 
+<br/><br/>
 ## string.filledString
 #### Syntax
 string.filledString (character, count)
@@ -347,7 +346,7 @@ A string containing a number of copies of the first parameter.
 
 - *   *
 
-## 
+<br/><br/>
 ## string.formatDate
 #### Syntax
 string.formatDate (date, format, timezone)
@@ -388,7 +387,7 @@ If the timezone is not specified, we use the timezone that the machine that ran 
 
 - *Sunday, March 14, 2021 at 11:27 AM.*
 
-## 
+<br/><br/>
 ## string.getRandomPassword
 #### Syntax
 string.getRandomPassword (count)
@@ -408,7 +407,7 @@ A string of random characters.
 
 - *pv8snpjvmbl4np4kh4mt*
 
-## 
+<br/><br/>
 ## string.hashMD5
 #### Syntax
 string.hashMD5 (string)
@@ -431,7 +430,7 @@ You can tell with a lot of confidence that the sender who uses this function has
 
 - *d7adfe509535ad6de49a8baf0fbf7a3d*
 
-## 
+<br/><br/>
 ## string.innerCaseName
 #### Syntax
 string.innerCaseName (string)
@@ -450,7 +449,7 @@ It's useful for creating a file name or URL from a title.
 
 - *theStoryOfMyLife.mp3*
 
-## 
+<br/><br/>
 ## string.insert
 #### Syntax
 string.insert (source, dest, ix)
@@ -473,7 +472,7 @@ Behavior is unpredictable if ix is less than zero.
 
 - * Hello from Hollywood*
 
-## 
+<br/><br/>
 ## string.isAlpha
 #### Syntax
 string.isAlpha (ch)
@@ -513,7 +512,7 @@ string.isWhitespace
 
 string.isPunctuation
 
-## 
+<br/><br/>
 ## string.isNumeric
 #### Syntax
 string.isNumeric (ch)
@@ -553,7 +552,7 @@ string.isWhitespace
 
 string.isPunctuation
 
-## 
+<br/><br/>
 ## string.isPunctuation
 #### Syntax
 string.isPunctuation (ch)
@@ -598,7 +597,7 @@ string.isPunctuation
 
 string.trimWhitespace
 
-## 
+<br/><br/>
 ## string.isWhitespace
 #### Syntax
 string.isWhitespace (ch)
@@ -638,7 +637,7 @@ string.isPunctuation
 
 string.trimWhitespace
 
-## 
+<br/><br/>
 ## string.lastField
 #### Syntax
 string.lastField (s, ch)
@@ -672,7 +671,7 @@ string.nthField
 
 string.countFields
 
-## 
+<br/><br/>
 ## string.lower
 #### Syntax
 string.lower (s) returns string
@@ -689,7 +688,7 @@ The lower case version of the string.
 #### See also
 string.upper
 
-## 
+<br/><br/>
 ## string.maxStringLength
 #### Syntax
 string.maxStringLength (string, maxlength, flWholeWordAtEnd, flAddElipses)
@@ -713,7 +712,7 @@ A string that is not longer than the indicated length.
 
 - *You know nothing Jon Snow.*
 
-## 
+<br/><br/>
 ## string.markdownProcess
 #### Syntax
 string.markdownProcess (string)
@@ -740,7 +739,7 @@ We use <a href="https://github.com/StackExchange/pagedown">Pagedown</a>, the Mar
 
 - *<ul>*
 
-## 
+<br/><br/>
 ## string.mid
 #### Syntax
 string.mid (string, ix, ct)
@@ -774,7 +773,7 @@ string.delete
 
 string.insert
 
-## 
+<br/><br/>
 ## string.monthToString
 #### Syntax
 string.monthToString (number)
@@ -797,7 +796,7 @@ A string like "January", "February", "March", "April", "May", "June", "July", "A
 #### See also
 string.dayOfWeekToString
 
-## 
+<br/><br/>
 ## string.multipleReplaceAll
 #### Syntax
 string.multipleReplaceAll (s, replaceTable, flCaseSensitive, startCharacters, endCharacters)
@@ -824,7 +823,7 @@ A string, the result of the replacements.
 #### See also
 string.replaceAll
 
-## 
+<br/><br/>
 ## string.nthField
 #### Syntax
 string.nthField (s, ch, n)
@@ -847,7 +846,7 @@ string.lastField
 
 string.countFields
 
-## 
+<br/><br/>
 ## string.padWithZeros
 #### Syntax
 string.padWithZeros (number, ct)
@@ -877,7 +876,7 @@ string.delete
 
 string.insert
 
-## 
+<br/><br/>
 ## string.popExtension
 #### Syntax
 string.popExtension (s)
@@ -898,7 +897,7 @@ string.popLastField
 
 string.popTrailing
 
-## 
+<br/><br/>
 ## string.popLastField
 #### Syntax
 string.popLastField (s, ch)
@@ -928,7 +927,7 @@ string.countFields
 
 string.lastField
 
-## 
+<br/><br/>
 ## string.popTrailing
 #### Syntax
 string.popTrailing (s, ch)
@@ -949,7 +948,7 @@ string.popLastField
 
 string.popExtension
 
-## 
+<br/><br/>
 ## string.randomSnarkySlogan
 #### Syntax
 string.randomSnarkySlogan ()
@@ -980,7 +979,7 @@ This is mostly for fun. Truthfully it's <i>only</i> for fun. Heh. ;-)
 
 - *It's even worse than it appears.*
 
-## 
+<br/><br/>
 ## string.replaceAll
 #### Syntax
 string.replaceAll (s, searchFor, replaceWith)
@@ -999,7 +998,7 @@ The result of replacing all occurrences of the second string with the third, in 
 #### See also
 string.multipleReplaceAll
 
-## 
+<br/><br/>
 ## string.stripMarkup
 #### Syntax
 string.stripMarkup (string)
@@ -1015,7 +1014,7 @@ The string without the HTML markup.
 
 - *Sometimes you don't want the markup.*
 
-## 
+<br/><br/>
 ## string.trimLeading
 #### Syntax
 string.trimLeading (string, ch)
@@ -1034,7 +1033,7 @@ The string without instances of the character at the beginning of the string.
 #### See also
 string.trimTrailing
 
-## 
+<br/><br/>
 ## string.trimTrailing
 #### Syntax
 string.trimTrailing (string, ch)
@@ -1053,7 +1052,7 @@ The string without instances of the character at the end of the string.
 #### See also
 string.trimLeading
 
-## 
+<br/><br/>
 ## string.trimWhitespace
 #### Syntax
 string.trimWhitespace (string)
@@ -1079,7 +1078,7 @@ Use this verb to allow comparisons between names or identifiers that might have 
 #### See also
 string.trimLeading
 
-## 
+<br/><br/>
 ## string.upper
 #### Syntax
 string.upper (s) returns string
@@ -1096,3 +1095,4 @@ The upper case version of the string.
 #### See also
 string.lower
 
+<br/><br/>
