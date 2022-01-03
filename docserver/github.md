@@ -21,13 +21,9 @@ This verb does not work in Electric Drummer yet. But you can use the other GitHu
 true
 
 #### Example
-github.connectViaOauth ()
+undefined
 
-- *true*
-
-localStorage.githubAccessToken //this is where you access token is stored
-
-- *1234567890123456789012345678901234567890*
+undefined
 
 ## github.disconnect
 #### Syntax
@@ -45,9 +41,7 @@ The GitHub verbs will not work on this machine after calling github.disconnect.
 true
 
 #### Example
-github.disconnect ()
-
-- *true*
+undefined
 
 ## github.download
 #### Syntax
@@ -62,13 +56,9 @@ The third string is a path to the object you want to download.
 A JavaScript object with information about the file, including its contents. 
 
 #### Examples
-base64.decode (github.download ("scripting", "Scripting-News", "/blog/stories/2020/02/15/a142106.md").content)
+undefined
 
-- *Questions for all Democratic candidates, esp <a href="http://scripting.com/2020/02/14/141155.html?title=presidentBloombergReallyADemocrat">Bloomberg</a>. Do you feel the president is above the law? If you are elected, will you use the new powers Trump has taken for himself? What will you do if Trump refuses to leave?*
-
-github.download ("scripting", "Scripting-News", "/blog/stories/2020/02/15/a142106.md").size
-
-- *319*
+undefined
 
 ## github.getAccessToken
 #### Syntax
@@ -81,9 +71,7 @@ None.
 The access token if you're logged in, undefined if not. 
 
 #### Example
-github.getAccessToken ()
-
-- *1234567890123456789012345678901234567890*
+undefined
 
 ## github.getDirectory
 #### Syntax
@@ -98,13 +86,9 @@ The third string is a path to the directory you want a list of.
 A JavaScript object containing information about all the files in the directory. 
 
 #### Examples
-github.getDirectory ("scripting", "tmp1")
+undefined
 
-- *[*
-
-github.getDirectory ("scripting", "Scripting-News", "/blog/opml/2017")
-
-- *[*
+undefined
 
 ## github.getUserInfo
 #### Syntax
@@ -117,13 +101,9 @@ The string, which is optional, is the username of the account you want the infor
 If the username is not provided, github.getUserInfo returns a JavaScript object containing the user info for the current logged-in user. 
 
 #### Examples
-github.getUserInfo ()
+undefined
 
-- *{*
-
-github.getUserInfo ("octocat")
-
-- *{*
+undefined
 
 ## github.upload
 #### Syntax
@@ -142,7 +122,5 @@ The fifth string is the "commit message" that is displayed next to the object in
 All the information GitHub returns about the upload.
 
 #### Examples
-github.upload ("scripting", "tmp1", "hello.txt", "Hello World")
-
-- *{*
+undefined
 
