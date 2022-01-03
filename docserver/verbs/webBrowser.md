@@ -1,6 +1,5 @@
 
 # webBrowser verbs
-## 
 ## webBrowser.openUrl
 #### Syntax
 webBrowser.openUrl (string)
@@ -19,3 +18,4 @@ true.
 
 - *true*
 
+<br/><br/>
