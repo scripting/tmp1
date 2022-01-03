@@ -1,6 +1,5 @@
 
 # speaker verbs
-## 
 ## speaker.beep
 #### Syntax
 speaker.beep ()
@@ -19,3 +18,4 @@ undefined
 
 - *true*
 
+<br/><br/>
