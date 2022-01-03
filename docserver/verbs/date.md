@@ -23,7 +23,7 @@ This is a core routine for building blogs that might be published by software ru
 
 - *11/15/2021, 8:45:29 PM*
 
-<br/><br/>
+<br/>
 ## date.dayGreaterThanOrEqual
 #### Syntax
 date.dayGreaterThanOrEqual (d1, d2)
@@ -42,7 +42,7 @@ This verb is useful in determining which version of software you're running, if 
 
 - *true*
 
-<br/><br/>
+<br/>
 ## date.netStandardString
 #### Syntax
 date.netStandardString (date)
@@ -67,7 +67,7 @@ It's a human and machine readable way of expressing of dates.
 
 - *Sat, 06 Dec 1997 04:03:15 GMT*
 
-<br/><br/>
+<br/>
 ## date.sameDay
 #### Syntax
 date.sameDay (d1, d2)
@@ -87,7 +87,7 @@ true if the dates are on the same day, false otherwise.
 
 - *true*
 
-<br/><br/>
+<br/>
 ## date.sameMonth
 #### Syntax
 date.sameMonth (d1, d2)
@@ -107,7 +107,7 @@ true if the dates are in the same month, false otherwise.
 
 - *true*
 
-<br/><br/>
+<br/>
 ## date.secondsSince
 #### Syntax
 date.secondsSince (date)
@@ -126,7 +126,7 @@ Useful when you want to know how long something took.
 
 - *31580389.57*
 
-<br/><br/>
+<br/>
 ## date.tomorrow
 #### Syntax
 date.tomorrow (date)
@@ -142,7 +142,7 @@ The result of adding 24 hours from the date.
 
 - *Mon Mar 15 2021 12:21:22 GMT-0400 (Eastern Daylight Time)*
 
-<br/><br/>
+<br/>
 ## date.yesterday
 #### Syntax
 date.yesterday (date)
@@ -158,4 +158,4 @@ The result of subtracting 24 hours from the date.
 
 - *Sat Mar 13 2021 11:21:02 GMT-0500 (Eastern Standard Time)*
 
-<br/><br/>
+<br/>
