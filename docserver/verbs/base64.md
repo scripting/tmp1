@@ -1,5 +1,4 @@
 
----
 # base64 verbs
 ## base64.encode
 #### Syntax
@@ -16,6 +15,7 @@ The base64 encoding of the string.
 
 - *SGVsbG8gRG9sbHk=*
 
+<br/><br/>
 ## base64.decode
 #### Syntax
 base64.decode (string)
@@ -35,3 +35,4 @@ The string that's decoded from the base64 encoded text.
 
 - *It's a wonderful day in the neighborhood.*
 
+<br/><br/>
