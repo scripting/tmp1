@@ -1,5 +1,4 @@
 
----
 # oldSchool verbs
 ## oldSchool.buildBlog
 #### Syntax
@@ -23,6 +22,7 @@ The web address of the user's blog if the boolean is false, otherwise all the da
 
 - *{*
 
+<br/><br/>
 ## oldSchool.getCursorLink
 #### Syntax
 oldSchool.getCursorLink ()
@@ -45,3 +45,4 @@ This functionality is wired into the Eye icon.
 
 - *http://clueless.lucky.wtf/2021/11/14.html#a232957*
 
+<br/><br/>
